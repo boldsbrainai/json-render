@@ -7,10 +7,11 @@ import { headers } from "next/headers";
 import { allDocsPages } from "@/lib/docs-navigation";
 import { mdxToCleanMarkdown } from "@/lib/mdx-to-markdown";
 import { minuteRateLimit, dailyRateLimit } from "@/lib/rate-limit";
+import { createOssModel } from "@/lib/oss-ai";
 
 export const maxDuration = 60;
 
-const DEFAULT_MODEL = "anthropic/claude-haiku-4.5";
+const DEFAULT_MODEL = "qwen2.5:7b-instruct";
 
 const SYSTEM_PROMPT = `You are a helpful documentation assistant for json-render, a library for AI-generated UI with guardrails.
 
@@ -65,22 +66,6 @@ async function loadDocsFiles(): Promise<Record<string, string>> {
   return files;
 }
 
-function addCacheControl(messages: ModelMessage[]): ModelMessage[] {
-  if (messages.length === 0) return messages;
-  return messages.map((message, index) => {
-    if (index === messages.length - 1) {
-      return {
-        ...message,
-        providerOptions: {
-          ...message.providerOptions,
-          anthropic: { cacheControl: { type: "ephemeral" } },
-        },
-      };
-    }
-    return message;
-  });
-}
-
 export async function POST(req: Request) {
   const headersList = await headers();
   const ip = headersList.get("x-forwarded-for")?.split(",")[0] ?? "anonymous";
@@ -114,7 +99,7 @@ export async function POST(req: Request) {
   } = await createBashTool({ files: docsFiles });
 
   const result = streamText({
-    model: DEFAULT_MODEL,
+    model: createOssModel(DEFAULT_MODEL),
     system: SYSTEM_PROMPT,
     messages: await convertToModelMessages(messages),
     stopWhen: stepCountIs(5),
@@ -122,9 +107,6 @@ export async function POST(req: Request) {
       bash,
       readFile,
     },
-    prepareStep: ({ messages: stepMessages }) => ({
-      messages: addCacheControl(stepMessages),
-    }),
   });
 
   return result.toUIMessageStreamResponse();

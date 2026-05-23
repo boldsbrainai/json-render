@@ -10,6 +10,7 @@ import { yamlPrompt } from "@json-render/yaml";
 import { stringify as yamlStringify } from "yaml";
 import { minuteRateLimit, dailyRateLimit } from "@/lib/rate-limit";
 import { playgroundCatalog } from "@/lib/render/catalog";
+import { createOssModel } from "@/lib/oss-ai";
 
 export const maxDuration = 30;
 
@@ -27,7 +28,7 @@ const PLAYGROUND_RULES = [
 ];
 
 const MAX_PROMPT_LENGTH = 500;
-const DEFAULT_MODEL = "anthropic/claude-haiku-4.5";
+const DEFAULT_MODEL = "qwen2.5:7b-instruct";
 
 function getSystemPrompt(isYaml: boolean, editModes?: EditMode[]): string {
   if (isYaml) {
@@ -106,16 +107,8 @@ export async function POST(req: Request) {
       });
 
   const result = streamText({
-    model: process.env.AI_GATEWAY_MODEL || DEFAULT_MODEL,
-    system: [
-      {
-        role: "system",
-        content: systemPrompt,
-        providerOptions: {
-          anthropic: { cacheControl: { type: "ephemeral" } },
-        },
-      },
-    ],
+    model: createOssModel(DEFAULT_MODEL),
+    system: systemPrompt,
     prompt: userPrompt,
     temperature: 0.7,
   });
