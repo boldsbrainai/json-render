@@ -28,26 +28,33 @@ This ensures we don't install outdated versions that may have incompatible types
 - Use shadcn CLI to add shadcn/ui components: `pnpm dlx shadcn@latest add <component>`
 - **Web app docs (`apps/web/`):** Never use Markdown table syntax (`| col | col |`). Always use HTML `<table>` with `<thead>`, `<tbody>`, `<tr>`, `<th>`, `<td>`. Markdown tables do not render correctly in the web app. Inside HTML table cells, curly braces must be escaped as JSX expressions (e.g. `<code>{'{ "$state": "/path" }'}</code>`) because MDX parses `{` as a JSX expression boundary.
 
-## AI SDK / AI Gateway
+## AI SDK / OSS Providers
 
-When using the Vercel AI SDK (`ai` package) with AI Gateway, pass the model as a plain string identifier -- do not import a provider constructor:
+When using the Vercel AI SDK (`ai` package) in this repo, prefer an OpenAI-compatible provider constructor pointed at LiteLLM, Ollama, or vLLM:
 
 ```ts
 import { streamText } from "ai";
+import { createOpenAI } from "@ai-sdk/openai";
+
+const provider = createOpenAI({
+  baseURL: process.env.LLM_BASE_URL || "http://127.0.0.1:11434/v1",
+  apiKey: process.env.LLM_API_KEY || "ollama",
+});
 
 const result = streamText({
-  model: "anthropic/claude-haiku-4.5",
+  model: provider(process.env.LLM_MODEL || "qwen2.5:7b-instruct"),
   prompt: "...",
 });
 ```
 
-This requires `AI_GATEWAY_API_KEY` to be set in the environment. See `tests/e2e/` for examples.
+Use `LLM_BASE_URL`, `LLM_API_KEY`, and `LLM_MODEL` in the environment. `AI_GATEWAY_MODEL` may remain as a temporary fallback during migration.
 
 ## Dev Servers
 
 All apps and examples with dev servers use [portless](https://github.com/vercel-labs/portless) to avoid hardcoded ports. Portless assigns random ports and exposes each app via `.localhost` URLs.
 
 Naming convention:
+
 - Main web app: `json-render` → `json-render.localhost:1355`
 - Examples: `[name]-demo.json-render` → `[name]-demo.json-render.localhost:1355`
 

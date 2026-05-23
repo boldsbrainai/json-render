@@ -48,7 +48,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "rm -rf dist && tsup",
+    "build": "tsup --config tsup.client.config.ts && tsup --config tsup.server.config.ts",
     "dev": "tsup --watch",
     "check-types": "tsc --noEmit",
     "typecheck": "tsc --noEmit"

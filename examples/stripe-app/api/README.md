@@ -8,7 +8,7 @@ A lightweight Next.js server that provides the `/api/generate` endpoint for AI-p
 pnpm install
 
 cp .env.example .env
-# Set AI_GATEWAY_API_KEY
+# Set LLM_BASE_URL (and optionally LLM_API_KEY / LLM_MODEL)
 ```
 
 ## Running

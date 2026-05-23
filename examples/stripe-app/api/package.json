@@ -10,7 +10,7 @@
     "start": "next start --port 3001"
   },
   "dependencies": {
-    "@ai-sdk/gateway": "^3.0.50",
+    "@ai-sdk/openai": "^3.0.64",
     "ai": "^6.0.91",
     "next": "^16.1.6",
     "react": "^19.1.0",

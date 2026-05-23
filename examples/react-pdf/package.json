@@ -11,7 +11,7 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@ai-sdk/gateway": "^3.0.52",
+    "@ai-sdk/openai": "^3.0.64",
     "@json-render/core": "workspace:*",
     "@json-render/react-pdf": "workspace:*",
     "@tailwindcss/postcss": "^4.1.18",
@@ -26,8 +26,7 @@
     "react-resizable-panels": "^4.4.1",
     "tailwind-merge": "^3.5.0",
     "tailwindcss": "^4.1.18",
-    "@upstash/ratelimit": "^2.0.8",
-    "@upstash/redis": "^1.37.0",
+    "redis": "^5.12.1",
     "zod": "4.3.6"
   },
   "devDependencies": {

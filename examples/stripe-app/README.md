@@ -5,7 +5,7 @@
 ## Structure
 
 | Folder | Description |
-|--------|-------------|
+| -------- | ------------- |
 | [api/](./api) | Next.js server providing the `/api/generate` endpoint for AI-powered UI generation |
 | [drawer-app/](./drawer-app) | Standard Stripe App that renders in the Dashboard drawer (sidebar) |
 | [fullpage-app/](./fullpage-app) | Full-page Stripe App using `FullPageView` (requires alpha access) |
@@ -17,7 +17,7 @@
 ```bash
 cd api
 pnpm install
-cp .env.example .env  # Set AI_GATEWAY_API_KEY
+cp .env.example .env  # Set LLM_BASE_URL (and optionally LLM_API_KEY / LLM_MODEL)
 pnpm dev
 ```
 

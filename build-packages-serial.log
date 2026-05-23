@@ -1,0 +1,664 @@
+Scope: 32 of 59 workspace projects
+$ tsup
+[34mCLI[39m Building entry: src/index.ts, src/store-utils.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.1
+[34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\core\tsup.config.ts
+[34mCLI[39m Target: es2022
+[34mCLI[39m Cleaning output folder
+[34mCJS[39m Build start
+[34mESM[39m Build start
+[32mCJS[39m [1mdist\store-utils.js     [22m[32m5.58 KB[39m
+[32mCJS[39m [1mdist\index.js           [22m[32m97.05 KB[39m
+[32mCJS[39m [1mdist\store-utils.js.map [22m[32m52.55 KB[39m
+[32mCJS[39m [1mdist\index.js.map       [22m[32m254.56 KB[39m
+[32mCJS[39m ÔÜí´©Å Build success in 22ms
+[32mESM[39m [1mdist\store-utils.mjs        [22m[32m220.00 B[39m
+[32mESM[39m [1mdist\chunk-HPGNDZYE.mjs     [22m[32m19.31 KB[39m
+[32mESM[39m [1mdist\index.mjs              [22m[32m75.82 KB[39m
+[32mESM[39m [1mdist\store-utils.mjs.map    [22m[32m71.00 B[39m
+[32mESM[39m [1mdist\index.mjs.map          [22m[32m187.38 KB[39m
+[32mESM[39m [1mdist\chunk-HPGNDZYE.mjs.map [22m[32m63.12 KB[39m
+[32mESM[39m ÔÜí´©Å Build success in 23ms
+[34mDTS[39m Build start
+[32mDTS[39m ÔÜí´©Å Build success in 1177ms
+[32mDTS[39m [1mdist\index.d.ts                 [22m[32m36.17 KB[39m
+[32mDTS[39m [1mdist\store-utils.d.ts           [22m[32m160.00 B[39m
+[32mDTS[39m [1mdist\store-utils-D98Czbil.d.ts  [22m[32m29.33 KB[39m
+[32mDTS[39m [1mdist\index.d.mts                [22m[32m36.17 KB[39m
+[32mDTS[39m [1mdist\store-utils.d.mts          [22m[32m161.00 B[39m
+[32mDTS[39m [1mdist\store-utils-D98Czbil.d.mts [22m[32m29.33 KB[39m
+$ tsup
+[34mCLI[39m Building entry: src/index.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.1
+[34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\codegen\tsup.config.ts
+[34mCLI[39m Target: es2022
+[34mCLI[39m Cleaning output folder
+[34mCJS[39m Build start
+[34mESM[39m Build start
+[32mCJS[39m [1mdist\index.js     [22m[32m6.99 KB[39m
+[32mCJS[39m [1mdist\index.js.map [22m[32m14.14 KB[39m
+[32mCJS[39m ÔÜí´©Å Build success in 10ms
+[32mESM[39m [1mdist\index.mjs     [22m[32m5.73 KB[39m
+[32mESM[39m [1mdist\index.mjs.map [22m[32m13.70 KB[39m
+[32mESM[39m ÔÜí´©Å Build success in 10ms
+[34mDTS[39m Build start
+[32mDTS[39m ÔÜí´©Å Build success in 401ms
+[32mDTS[39m [1mdist\index.d.ts  [22m[32m1.97 KB[39m
+[32mDTS[39m [1mdist\index.d.mts [22m[32m1.97 KB[39m
+$ tsup
+[34mCLI[39m Building entry: src/index.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.1
+[34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\devtools\tsup.config.ts
+[34mCLI[39m Target: es2022
+[34mCLI[39m Cleaning output folder
+[34mCJS[39m Build start
+[34mESM[39m Build start
+[32mCJS[39m [1mdist\index.js     [22m[32m90.42 KB[39m
+[32mCJS[39m [1mdist\index.js.map [22m[32m194.47 KB[39m
+[32mCJS[39m ÔÜí´©Å Build success in 20ms
+[32mESM[39m [1mdist\index.mjs     [22m[32m88.30 KB[39m
+[32mESM[39m [1mdist\index.mjs.map [22m[32m193.05 KB[39m
+[32mESM[39m ÔÜí´©Å Build success in 20ms
+[34mDTS[39m Build start
+[32mDTS[39m ÔÜí´©Å Build success in 650ms
+[32mDTS[39m [1mdist\index.d.ts  [22m[32m19.02 KB[39m
+[32mDTS[39m [1mdist\index.d.mts [22m[32m19.02 KB[39m
+$ tsup
+[34mCLI[39m Building entry: src/index.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.1
+[34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\directives\tsup.config.ts
+[34mCLI[39m Target: es2022
+[34mCLI[39m Cleaning output folder
+[34mCJS[39m Build start
+[34mESM[39m Build start
+[32mESM[39m [1mdist\index.mjs     [22m[32m8.43 KB[39m
+[32mESM[39m [1mdist\index.mjs.map [22m[32m17.21 KB[39m
+[32mESM[39m ÔÜí´©Å Build success in 14ms
+[32mCJS[39m [1mdist\index.js     [22m[32m10.03 KB[39m
+[32mCJS[39m [1mdist\index.js.map [22m[32m16.97 KB[39m
+[32mCJS[39m ÔÜí´©Å Build success in 16ms
+[34mDTS[39m Build start
+[32mDTS[39m ÔÜí´©Å Build success in 668ms
+[32mDTS[39m [1mdist\index.d.ts  [22m[32m4.78 KB[39m
+[32mDTS[39m [1mdist\index.d.mts [22m[32m4.78 KB[39m
+$ tsup
+[34mCLI[39m Building entry: src/catalog.ts, src/index.ts, src/render.tsx, src/server.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.1
+[34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\image\tsup.config.ts
+[34mCLI[39m Target: es2022
+[34mCLI[39m Cleaning output folder
+[34mCJS[39m Build start
+[34mESM[39m Build start
+[32mESM[39m [1mdist\catalog.mjs            [22m[32m150.00 B[39m
+[32mESM[39m [1mdist\render.mjs             [22m[32m189.00 B[39m
+[32mESM[39m [1mdist\index.mjs              [22m[32m350.00 B[39m
+[32mESM[39m [1mdist\server.mjs             [22m[32m208.00 B[39m
+[32mESM[39m [1mdist\chunk-TZJPEMRQ.mjs     [22m[32m8.24 KB[39m
+[32mESM[39m [1mdist\chunk-4BAQVI3F.mjs     [22m[32m1.65 KB[39m
+[32mESM[39m [1mdist\chunk-5Y63UW22.mjs     [22m[32m6.33 KB[39m
+[32mESM[39m [1mdist\catalog.mjs.map        [22m[32m71.00 B[39m
+[32mESM[39m [1mdist\render.mjs.map         [22m[32m71.00 B[39m
+[32mESM[39m [1mdist\server.mjs.map         [22m[32m71.00 B[39m
+[32mESM[39m [1mdist\index.mjs.map          [22m[32m71.00 B[39m
+[32mESM[39m [1mdist\chunk-TZJPEMRQ.mjs.map [22m[32m18.92 KB[39m
+[32mESM[39m [1mdist\chunk-4BAQVI3F.mjs.map [22m[32m2.94 KB[39m
+[32mESM[39m [1mdist\chunk-5Y63UW22.mjs.map [22m[32m12.51 KB[39m
+[32mESM[39m ÔÜí´©Å Build success in 16ms
+[32mCJS[39m [1mdist\catalog.js     [22m[32m8.25 KB[39m
+[32mCJS[39m [1mdist\render.js      [22m[32m10.28 KB[39m
+[32mCJS[39m [1mdist\index.js       [22m[32m19.16 KB[39m
+[32mCJS[39m [1mdist\server.js      [22m[32m9.90 KB[39m
+[32mCJS[39m [1mdist\catalog.js.map [22m[32m12.55 KB[39m
+[32mCJS[39m [1mdist\render.js.map  [22m[32m18.93 KB[39m
+[32mCJS[39m [1mdist\index.js.map   [22m[32m35.15 KB[39m
+[32mCJS[39m [1mdist\server.js.map  [22m[32m15.97 KB[39m
+[32mCJS[39m ÔÜí´©Å Build success in 17ms
+[34mDTS[39m Build start
+[32mDTS[39m ÔÜí´©Å Build success in 941ms
+[32mDTS[39m [1mdist\index.d.ts            [22m[32m526.00 B[39m
+[32mDTS[39m [1mdist\catalog.d.ts          [22m[32m8.77 KB[39m
+[32mDTS[39m [1mdist\server.d.ts           [22m[32m2.43 KB[39m
+[32mDTS[39m [1mdist\render.d.ts           [22m[32m181.00 B[39m
+[32mDTS[39m [1mdist\render-DyXCSaYW.d.ts  [22m[32m1.60 KB[39m
+[32mDTS[39m [1mdist\index.d.mts           [22m[32m529.00 B[39m
+[32mDTS[39m [1mdist\catalog.d.mts         [22m[32m8.77 KB[39m
+[32mDTS[39m [1mdist\server.d.mts          [22m[32m2.43 KB[39m
+[32mDTS[39m [1mdist\render.d.mts          [22m[32m182.00 B[39m
+[32mDTS[39m [1mdist\render-DyXCSaYW.d.mts [22m[32m1.60 KB[39m
+$ tsup
+[34mCLI[39m Building entry: src/index.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.1
+[34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\jotai\tsup.config.ts
+[34mCLI[39m Target: es2022
+[34mCLI[39m Cleaning output folder
+[34mCJS[39m Build start
+[34mESM[39m Build start
+[32mCJS[39m [1mdist\index.js     [22m[32m1.54 KB[39m
+[32mCJS[39m [1mdist\index.js.map [22m[32m2.46 KB[39m
+[32mCJS[39m ÔÜí´©Å Build success in 9ms
+[32mESM[39m [1mdist\index.mjs     [22m[32m538.00 B[39m
+[32mESM[39m [1mdist\index.mjs.map [22m[32m2.41 KB[39m
+[32mESM[39m ÔÜí´©Å Build success in 9ms
+[34mDTS[39m Build start
+[32mDTS[39m ÔÜí´©Å Build success in 381ms
+[32mDTS[39m [1mdist\index.d.ts  [22m[32m1.51 KB[39m
+[32mDTS[39m [1mdist\index.d.mts [22m[32m1.51 KB[39m
+$ tsup
+[34mCLI[39m Building entry: src/app.ts, src/build-app-html-entry.ts, src/index.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.1
+[34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\mcp\tsup.config.ts
+[34mCLI[39m Target: es2022
+[34mCLI[39m Cleaning output folder
+[34mCJS[39m Build start
+[34mESM[39m Build start
+[32mESM[39m [1mdist\build-app-html-entry.mjs     [22m[32m131.00 B[39m
+[32mESM[39m [1mdist\chunk-WM3MCDHG.mjs           [22m[32m655.00 B[39m
+[32mESM[39m [1mdist\app.mjs                      [22m[32m2.02 KB[39m
+[32mESM[39m [1mdist\index.mjs                    [22m[32m2.33 KB[39m
+[32mESM[39m [1mdist\build-app-html-entry.mjs.map [22m[32m71.00 B[39m
+[32mESM[39m [1mdist\app.mjs.map                  [22m[32m5.75 KB[39m
+[32mESM[39m [1mdist\chunk-WM3MCDHG.mjs.map       [22m[32m2.54 KB[39m
+[32mESM[39m [1mdist\index.mjs.map                [22m[32m6.26 KB[39m
+[32mESM[39m ÔÜí´©Å Build success in 13ms
+[32mCJS[39m [1mdist\app.js                      [22m[32m3.70 KB[39m
+[32mCJS[39m [1mdist\build-app-html-entry.js     [22m[32m1.71 KB[39m
+[32mCJS[39m [1mdist\index.js                    [22m[32m4.05 KB[39m
+[32mCJS[39m [1mdist\build-app-html-entry.js.map [22m[32m2.97 KB[39m
+[32mCJS[39m [1mdist\app.js.map                  [22m[32m9.33 KB[39m
+[32mCJS[39m [1mdist\index.js.map                [22m[32m6.61 KB[39m
+[32mCJS[39m ÔÜí´©Å Build success in 14ms
+[34mDTS[39m Build start
+[32mDTS[39m ÔÜí´©Å Build success in 830ms
+[32mDTS[39m [1mdist\app.d.ts                   [22m[32m1.69 KB[39m
+[32mDTS[39m [1mdist\index.d.ts                 [22m[32m3.54 KB[39m
+[32mDTS[39m [1mdist\build-app-html-entry.d.ts  [22m[32m1.39 KB[39m
+[32mDTS[39m [1mdist\app.d.mts                  [22m[32m1.69 KB[39m
+[32mDTS[39m [1mdist\index.d.mts                [22m[32m3.54 KB[39m
+[32mDTS[39m [1mdist\build-app-html-entry.d.mts [22m[32m1.39 KB[39m
+$ tsup
+[34mCLI[39m Building entry: src/catalog.ts, src/index.ts, src/render.tsx, src/server.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.1
+[34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\react-email\tsup.config.ts
+[34mCLI[39m Target: es2022
+[34mCLI[39m Cleaning output folder
+[34mCJS[39m Build start
+[34mESM[39m Build start
+[32mCJS[39m [1mdist\catalog.js     [22m[32m6.58 KB[39m
+[32mCJS[39m [1mdist\index.js       [22m[32m39.35 KB[39m
+[32mCJS[39m [1mdist\render.js      [22m[32m7.91 KB[39m
+[32mCJS[39m [1mdist\server.js      [22m[32m8.46 KB[39m
+[32mCJS[39m [1mdist\catalog.js.map [22m[32m9.84 KB[39m
+[32mCJS[39m [1mdist\index.js.map   [22m[32m80.13 KB[39m
+[32mCJS[39m [1mdist\render.js.map  [22m[32m14.91 KB[39m
+[32mCJS[39m [1mdist\server.js.map  [22m[32m13.58 KB[39m
+[32mCJS[39m ÔÜí´©Å Build success in 19ms
+[32mESM[39m [1mdist\catalog.mjs            [22m[32m150.00 B[39m
+[32mESM[39m [1mdist\chunk-SBDX2AVO.mjs     [22m[32m6.43 KB[39m
+[32mESM[39m [1mdist\index.mjs              [22m[32m21.94 KB[39m
+[32mESM[39m [1mdist\render.mjs             [22m[32m203.00 B[39m
+[32mESM[39m [1mdist\chunk-2JICB7XI.mjs     [22m[32m1.88 KB[39m
+[32mESM[39m [1mdist\server.mjs             [22m[32m208.00 B[39m
+[32mESM[39m [1mdist\chunk-WR3PRMGG.mjs     [22m[32m5.17 KB[39m
+[32mESM[39m [1mdist\chunk-SBDX2AVO.mjs.map [22m[32m14.78 KB[39m
+[32mESM[39m [1mdist\catalog.mjs.map        [22m[32m71.00 B[39m
+[32mESM[39m [1mdist\index.mjs.map          [22m[32m50.99 KB[39m
+[32mESM[39m [1mdist\render.mjs.map         [22m[32m71.00 B[39m
+[32mESM[39m [1mdist\chunk-2JICB7XI.mjs.map [22m[32m3.23 KB[39m
+[32mESM[39m [1mdist\server.mjs.map         [22m[32m71.00 B[39m
+[32mESM[39m [1mdist\chunk-WR3PRMGG.mjs.map [22m[32m9.80 KB[39m
+[32mESM[39m ÔÜí´©Å Build success in 20ms
+[34mDTS[39m Build start
+[32mDTS[39m ÔÜí´©Å Build success in 993ms
+[32mDTS[39m [1mdist\catalog.d.ts                 [22m[32m5.81 KB[39m
+[32mDTS[39m [1mdist\index.d.ts                   [22m[32m5.25 KB[39m
+[32mDTS[39m [1mdist\server.d.ts                  [22m[32m1.91 KB[39m
+[32mDTS[39m [1mdist\render.d.ts                  [22m[32m267.00 B[39m
+[32mDTS[39m [1mdist\catalog-types-Dh9gul8V.d.ts  [22m[32m795.00 B[39m
+[32mDTS[39m [1mdist\render-DFHuQRW0.d.ts         [22m[32m3.68 KB[39m
+[32mDTS[39m [1mdist\catalog.d.mts                [22m[32m5.81 KB[39m
+[32mDTS[39m [1mdist\index.d.mts                  [22m[32m5.25 KB[39m
+[32mDTS[39m [1mdist\server.d.mts                 [22m[32m1.91 KB[39m
+[32mDTS[39m [1mdist\render.d.mts                 [22m[32m269.00 B[39m
+[32mDTS[39m [1mdist\catalog-types-Dh9gul8V.d.mts [22m[32m795.00 B[39m
+[32mDTS[39m [1mdist\render-kNHi7tZ2.d.mts        [22m[32m3.68 KB[39m
+$ tsup
+[34mCLI[39m Building entry: src/index.tsx
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.1
+[34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\react-state\tsup.config.ts
+[34mCLI[39m Target: es2022
+[34mCLI[39m Cleaning output folder
+[34mCJS[39m Build start
+[34mESM[39m Build start
+[32mCJS[39m [1mdist\index.js     [22m[32m5.81 KB[39m
+[32mCJS[39m [1mdist\index.js.map [22m[32m10.39 KB[39m
+[32mCJS[39m ÔÜí´©Å Build success in 9ms
+[32mESM[39m [1mdist\index.mjs     [22m[32m4.35 KB[39m
+[32mESM[39m [1mdist\index.mjs.map [22m[32m10.41 KB[39m
+[32mESM[39m ÔÜí´©Å Build success in 9ms
+[34mDTS[39m Build start
+[32mDTS[39m ÔÜí´©Å Build success in 441ms
+[32mDTS[39m [1mdist\index.d.ts  [22m[32m2.45 KB[39m
+[32mDTS[39m [1mdist\index.d.mts [22m[32m2.45 KB[39m
+$ tsup
+[34mCLI[39m Building entry: src/index.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.1
+[34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\redux\tsup.config.ts
+[34mCLI[39m Target: es2022
+[34mCLI[39m Cleaning output folder
+[34mCJS[39m Build start
+[34mESM[39m Build start
+[32mESM[39m [1mdist\index.mjs     [22m[32m694.00 B[39m
+[32mESM[39m [1mdist\index.mjs.map [22m[32m3.40 KB[39m
+[32mESM[39m ÔÜí´©Å Build success in 10ms
+[32mCJS[39m [1mdist\index.js     [22m[32m1.70 KB[39m
+[32mCJS[39m [1mdist\index.js.map [22m[32m3.44 KB[39m
+[32mCJS[39m ÔÜí´©Å Build success in 10ms
+[34mDTS[39m Build start
+[32mDTS[39m ÔÜí´©Å Build success in 394ms
+[32mDTS[39m [1mdist\index.d.ts  [22m[32m1.93 KB[39m
+[32mDTS[39m [1mdist\index.d.mts [22m[32m1.93 KB[39m
+$ tsup
+[34mCLI[39m Building entry: src/index.ts, src/server.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.1
+[34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\remotion\tsup.config.ts
+[34mCLI[39m Target: es2022
+[34mCLI[39m Cleaning output folder
+[34mCJS[39m Build start
+[34mESM[39m Build start
+[32mESM[39m [1mdist\server.mjs             [22m[32m293.00 B[39m
+[32mESM[39m [1mdist\index.mjs              [22m[32m20.24 KB[39m
+[32mESM[39m [1mdist\chunk-OR3KO6DZ.mjs     [22m[32m16.40 KB[39m
+[32mESM[39m [1mdist\server.mjs.map         [22m[32m71.00 B[39m
+[32mESM[39m [1mdist\index.mjs.map          [22m[32m42.61 KB[39m
+[32mESM[39m [1mdist\chunk-OR3KO6DZ.mjs.map [22m[32m28.61 KB[39m
+[32mESM[39m ÔÜí´©Å Build success in 15ms
+[32mCJS[39m [1mdist\server.js     [22m[32m18.25 KB[39m
+[32mCJS[39m [1mdist\index.js      [22m[32m41.16 KB[39m
+[32mCJS[39m [1mdist\server.js.map [22m[32m29.87 KB[39m
+[32mCJS[39m [1mdist\index.js.map  [22m[32m72.76 KB[39m
+[32mCJS[39m ÔÜí´©Å Build success in 16ms
+[34mDTS[39m Build start
+[32mDTS[39m ÔÜí´©Å Build success in 960ms
+[32mDTS[39m [1mdist\index.d.ts   [22m[32m6.87 KB[39m
+[32mDTS[39m [1mdist\server.d.ts  [22m[32m18.43 KB[39m
+[32mDTS[39m [1mdist\index.d.mts  [22m[32m6.87 KB[39m
+[32mDTS[39m [1mdist\server.d.mts [22m[32m18.43 KB[39m
+$ tsup
+[34mCLI[39m Building entry: src/index.ts, src/schema.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.1
+[34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\solid\tsup.config.ts
+[34mCLI[39m Target: es2022
+[34mCLI[39m Cleaning output folder
+[34mCJS[39m Build start
+[34mESM[39m Build start
+[32mCJS[39m [1mdist\schema.js     [22m[32m5.89 KB[39m
+[32mCJS[39m [1mdist\index.js      [22m[32m61.18 KB[39m
+[32mCJS[39m [1mdist\schema.js.map [22m[32m7.20 KB[39m
+[32mCJS[39m [1mdist\index.js.map  [22m[32m135.01 KB[39m
+[32mCJS[39m ÔÜí´©Å Build success in 274ms
+[32mESM[39m [1mdist\index.mjs              [22m[32m52.89 KB[39m
+[32mESM[39m [1mdist\schema.mjs             [22m[32m147.00 B[39m
+[32mESM[39m [1mdist\chunk-HKKU5HEQ.mjs     [22m[32m4.86 KB[39m
+[32mESM[39m [1mdist\schema.mjs.map         [22m[32m71.00 B[39m
+[32mESM[39m [1mdist\chunk-HKKU5HEQ.mjs.map [22m[32m7.15 KB[39m
+[32mESM[39m [1mdist\index.mjs.map          [22m[32m128.30 KB[39m
+[32mESM[39m ÔÜí´©Å Build success in 275ms
+[34mDTS[39m Build start
+[32mDTS[39m ÔÜí´©Å Build success in 865ms
+[32mDTS[39m [1mdist\index.d.ts   [22m[32m22.06 KB[39m
+[32mDTS[39m [1mdist\schema.d.ts  [22m[32m4.77 KB[39m
+[32mDTS[39m [1mdist\index.d.mts  [22m[32m22.06 KB[39m
+[32mDTS[39m [1mdist\schema.d.mts [22m[32m4.77 KB[39m
+$ svelte-package -i src -o dist
+src -> dist
+$ tsup
+[34mCLI[39m Building entry: src/index.ts, src/schema.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.1
+[34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\vue\tsup.config.ts
+[34mCLI[39m Target: es2022
+[34mCLI[39m Cleaning output folder
+[34mCJS[39m Build start
+[34mESM[39m Build start
+[32mCJS[39m [1mdist\schema.js     [22m[32m5.79 KB[39m
+[32mCJS[39m [1mdist\index.js      [22m[32m60.92 KB[39m
+[32mCJS[39m [1mdist\schema.js.map [22m[32m6.85 KB[39m
+[32mCJS[39m [1mdist\index.js.map  [22m[32m137.53 KB[39m
+[32mCJS[39m ÔÜí´©Å Build success in 19ms
+[32mESM[39m [1mdist\chunk-IHU7OLTB.mjs     [22m[32m4.81 KB[39m
+[32mESM[39m [1mdist\index.mjs              [22m[32m52.93 KB[39m
+[32mESM[39m [1mdist\schema.mjs             [22m[32m105.00 B[39m
+[32mESM[39m [1mdist\chunk-IHU7OLTB.mjs.map [22m[32m6.82 KB[39m
+[32mESM[39m [1mdist\schema.mjs.map         [22m[32m71.00 B[39m
+[32mESM[39m [1mdist\index.mjs.map          [22m[32m132.03 KB[39m
+[32mESM[39m ÔÜí´©Å Build success in 19ms
+[34mDTS[39m Build start
+[32mDTS[39m ÔÜí´©Å Build success in 1228ms
+[32mDTS[39m [1mdist\index.d.ts   [22m[32m30.51 KB[39m
+[32mDTS[39m [1mdist\schema.d.ts  [22m[32m2.52 KB[39m
+[32mDTS[39m [1mdist\index.d.mts  [22m[32m30.51 KB[39m
+[32mDTS[39m [1mdist\schema.d.mts [22m[32m2.52 KB[39m
+$ tsup
+[34mCLI[39m Building entry: src/index.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.1
+[34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\xstate\tsup.config.ts
+[34mCLI[39m Target: es2022
+[34mCLI[39m Cleaning output folder
+[34mCJS[39m Build start
+[34mESM[39m Build start
+[32mCJS[39m [1mdist\index.js     [22m[32m1.50 KB[39m
+[32mCJS[39m [1mdist\index.js.map [22m[32m1.74 KB[39m
+[32mCJS[39m ÔÜí´©Å Build success in 9ms
+[32mESM[39m [1mdist\index.mjs     [22m[32m481.00 B[39m
+[32mESM[39m [1mdist\index.mjs.map [22m[32m1.70 KB[39m
+[32mESM[39m ÔÜí´©Å Build success in 9ms
+[34mDTS[39m Build start
+[32mDTS[39m ÔÜí´©Å Build success in 382ms
+[32mDTS[39m [1mdist\index.d.ts  [22m[32m901.00 B[39m
+[32mDTS[39m [1mdist\index.d.mts [22m[32m901.00 B[39m
+$ tsup
+[34mCLI[39m Building entry: src/index.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.1
+[34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\yaml\tsup.config.ts
+[34mCLI[39m Target: es2022
+[34mCLI[39m Cleaning output folder
+[34mCJS[39m Build start
+[34mESM[39m Build start
+[32mESM[39m [1mdist\index.mjs     [22m[32m25.77 KB[39m
+[32mESM[39m [1mdist\index.mjs.map [22m[32m54.26 KB[39m
+[32mESM[39m ÔÜí´©Å Build success in 13ms
+[32mCJS[39m [1mdist\index.js     [22m[32m27.27 KB[39m
+[32mCJS[39m [1mdist\index.js.map [22m[32m54.91 KB[39m
+[32mCJS[39m ÔÜí´©Å Build success in 13ms
+[34mDTS[39m Build start
+[32mDTS[39m ÔÜí´©Å Build success in 476ms
+[32mDTS[39m [1mdist\index.d.ts  [22m[32m4.47 KB[39m
+[32mDTS[39m [1mdist\index.d.mts [22m[32m4.47 KB[39m
+$ tsup
+[34mCLI[39m Building entry: src/index.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.1
+[34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\zustand\tsup.config.ts
+[34mCLI[39m Target: es2022
+[34mCLI[39m Cleaning output folder
+[34mCJS[39m Build start
+[34mESM[39m Build start
+[32mESM[39m [1mdist\index.mjs     [22m[32m742.00 B[39m
+[32mESM[39m [1mdist\index.mjs.map [22m[32m3.43 KB[39m
+[32mESM[39m ÔÜí´©Å Build success in 8ms
+[32mCJS[39m [1mdist\index.js     [22m[32m1.75 KB[39m
+[32mCJS[39m [1mdist\index.js.map [22m[32m3.47 KB[39m
+[32mCJS[39m ÔÜí´©Å Build success in 9ms
+[34mDTS[39m Build start
+[32mDTS[39m ÔÜí´©Å Build success in 397ms
+[32mDTS[39m [1mdist\index.d.ts  [22m[32m1.87 KB[39m
+[32mDTS[39m [1mdist\index.d.mts [22m[32m1.87 KB[39m
+$ tsup
+[34mCLI[39m Building entry: src/index.tsx
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.1
+[34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\devtools-solid\tsup.config.ts
+[34mCLI[39m Target: es2022
+[34mCLI[39m Cleaning output folder
+[34mCJS[39m Build start
+[34mESM[39m Build start
+[32mESM[39m [1mdist\index.mjs     [22m[32m2.78 KB[39m
+[32mESM[39m [1mdist\index.mjs.map [22m[32m7.72 KB[39m
+[32mESM[39m ÔÜí´©Å Build success in 73ms
+[32mCJS[39m [1mdist\index.js     [22m[32m3.98 KB[39m
+[32mCJS[39m [1mdist\index.js.map [22m[32m7.63 KB[39m
+[32mCJS[39m ÔÜí´©Å Build success in 73ms
+[34mDTS[39m Build start
+[32mDTS[39m ÔÜí´©Å Build success in 409ms
+[32mDTS[39m [1mdist\index.d.ts  [22m[32m1.76 KB[39m
+[32mDTS[39m [1mdist\index.d.mts [22m[32m1.76 KB[39m
+$ svelte-package -i src -o dist
+src -> dist
+$ tsup
+[34mCLI[39m Building entry: src/index.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.1
+[34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\devtools-vue\tsup.config.ts
+[34mCLI[39m Target: es2022
+[34mCLI[39m Cleaning output folder
+[34mCJS[39m Build start
+[34mESM[39m Build start
+[32mCJS[39m [1mdist\index.js     [22m[32m5.24 KB[39m
+[32mCJS[39m [1mdist\index.js.map [22m[32m8.61 KB[39m
+[32mCJS[39m ÔÜí´©Å Build success in 13ms
+[32mESM[39m [1mdist\index.mjs     [22m[32m4.14 KB[39m
+[32mESM[39m [1mdist\index.mjs.map [22m[32m8.72 KB[39m
+[32mESM[39m ÔÜí´©Å Build success in 13ms
+[34mDTS[39m Build start
+[32mDTS[39m ÔÜí´©Å Build success in 572ms
+[32mDTS[39m [1mdist\index.d.ts  [22m[32m4.12 KB[39m
+[32mDTS[39m [1mdist\index.d.mts [22m[32m4.12 KB[39m
+$ tsup
+[34mCLI[39m Building entry: src/catalog.ts, src/index.ts, src/schema.ts, src/server.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.1
+[34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\ink\tsup.config.ts
+[34mCLI[39m Target: es2022
+[34mCLI[39m Cleaning output folder
+[34mCJS[39m Build start
+[34mESM[39m Build start
+[32mCJS[39m [1mdist\schema.js      [22m[32m6.09 KB[39m
+[32mCJS[39m [1mdist\catalog.js     [22m[32m20.78 KB[39m
+[32mCJS[39m [1mdist\index.js       [22m[32m104.98 KB[39m
+[32mCJS[39m [1mdist\server.js      [22m[32m25.89 KB[39m
+[32mCJS[39m [1mdist\schema.js.map  [22m[32m7.00 KB[39m
+[32mCJS[39m [1mdist\catalog.js.map [22m[32m33.17 KB[39m
+[32mCJS[39m [1mdist\server.js.map  [22m[32m40.70 KB[39m
+[32mCJS[39m [1mdist\index.js.map   [22m[32m208.91 KB[39m
+[32mCJS[39m ÔÜí´©Å Build success in 34ms
+[32mESM[39m [1mdist\index.mjs              [22m[32m71.33 KB[39m
+[32mESM[39m [1mdist\server.mjs             [22m[32m266.00 B[39m
+[32mESM[39m [1mdist\catalog.mjs            [22m[32m208.00 B[39m
+[32mESM[39m [1mdist\schema.mjs             [22m[32m105.00 B[39m
+[32mESM[39m [1mdist\chunk-TASAAJUD.mjs     [22m[32m17.42 KB[39m
+[32mESM[39m [1mdist\chunk-PTVU3B3Y.mjs     [22m[32m5.11 KB[39m
+[32mESM[39m [1mdist\server.mjs.map         [22m[32m71.00 B[39m
+[32mESM[39m [1mdist\catalog.mjs.map        [22m[32m71.00 B[39m
+[32mESM[39m [1mdist\index.mjs.map          [22m[32m171.66 KB[39m
+[32mESM[39m [1mdist\schema.mjs.map         [22m[32m71.00 B[39m
+[32mESM[39m [1mdist\chunk-TASAAJUD.mjs.map [22m[32m33.13 KB[39m
+[32mESM[39m [1mdist\chunk-PTVU3B3Y.mjs.map [22m[32m6.96 KB[39m
+[32mESM[39m ÔÜí´©Å Build success in 35ms
+[34mDTS[39m Build start
+[32mDTS[39m ÔÜí´©Å Build success in 1287ms
+[32mDTS[39m [1mdist\catalog.d.ts  [22m[32m18.05 KB[39m
+[32mDTS[39m [1mdist\schema.d.ts   [22m[32m2.43 KB[39m
+[32mDTS[39m [1mdist\index.d.ts    [22m[32m18.30 KB[39m
+[32mDTS[39m [1mdist\server.d.ts   [22m[32m2.63 KB[39m
+[32mDTS[39m [1mdist\catalog.d.mts [22m[32m18.05 KB[39m
+[32mDTS[39m [1mdist\schema.d.mts  [22m[32m2.43 KB[39m
+[32mDTS[39m [1mdist\index.d.mts   [22m[32m18.31 KB[39m
+[32mDTS[39m [1mdist\server.d.mts  [22m[32m2.63 KB[39m
+$ tsup
+[34mCLI[39m Building entry: src/index.ts, src/schema.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.1
+[34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\react\tsup.config.ts
+[34mCLI[39m Target: es2022
+[34mCLI[39m Cleaning output folder
+[34mCJS[39m Build start
+[34mESM[39m Build start
+[32mCJS[39m [1mdist\index.js      [22m[32m60.14 KB[39m
+[32mCJS[39m [1mdist\schema.js     [22m[32m5.89 KB[39m
+[32mCJS[39m [1mdist\schema.js.map [22m[32m7.20 KB[39m
+[32mCJS[39m [1mdist\index.js.map  [22m[32m138.29 KB[39m
+[32mCJS[39m ÔÜí´©Å Build success in 20ms
+[32mESM[39m [1mdist\schema.mjs             [22m[32m147.00 B[39m
+[32mESM[39m [1mdist\index.mjs              [22m[32m50.63 KB[39m
+[32mESM[39m [1mdist\chunk-WAR6QN2C.mjs     [22m[32m4.86 KB[39m
+[32mESM[39m [1mdist\schema.mjs.map         [22m[32m71.00 B[39m
+[32mESM[39m [1mdist\index.mjs.map          [22m[32m132.24 KB[39m
+[32mESM[39m [1mdist\chunk-WAR6QN2C.mjs.map [22m[32m7.15 KB[39m
+[32mESM[39m ÔÜí´©Å Build success in 19ms
+[34mDTS[39m Build start
+[32mDTS[39m ÔÜí´©Å Build success in 1028ms
+[32mDTS[39m [1mdist\index.d.ts   [22m[32m26.41 KB[39m
+[32mDTS[39m [1mdist\schema.d.ts  [22m[32m4.77 KB[39m
+[32mDTS[39m [1mdist\index.d.mts  [22m[32m26.41 KB[39m
+[32mDTS[39m [1mdist\schema.d.mts [22m[32m4.77 KB[39m
+$ tsup
+[34mCLI[39m Building entry: src/catalog.ts, src/index.ts, src/schema.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.1
+[34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\react-native\tsup.config.ts
+[34mCLI[39m Target: es2022
+[34mCLI[39m Cleaning output folder
+[34mCJS[39m Build start
+[34mESM[39m Build start
+[32mCJS[39m [1mdist\catalog.js     [22m[32m15.89 KB[39m
+[32mCJS[39m [1mdist\schema.js      [22m[32m7.65 KB[39m
+[32mCJS[39m [1mdist\index.js       [22m[32m89.38 KB[39m
+[32mCJS[39m [1mdist\catalog.js.map [22m[32m25.68 KB[39m
+[32mCJS[39m [1mdist\schema.js.map  [22m[32m8.95 KB[39m
+[32mCJS[39m [1mdist\index.js.map   [22m[32m185.04 KB[39m
+[32mCJS[39m ÔÜí´©Å Build success in 23ms
+[32mESM[39m [1mdist\catalog.mjs            [22m[32m208.00 B[39m
+[32mESM[39m [1mdist\index.mjs              [22m[32m61.25 KB[39m
+[32mESM[39m [1mdist\schema.mjs             [22m[32m147.00 B[39m
+[32mESM[39m [1mdist\chunk-3Q4HPHFV.mjs     [22m[32m13.07 KB[39m
+[32mESM[39m [1mdist\chunk-T3TW4YWI.mjs     [22m[32m6.62 KB[39m
+[32mESM[39m [1mdist\catalog.mjs.map        [22m[32m71.00 B[39m
+[32mESM[39m [1mdist\schema.mjs.map         [22m[32m71.00 B[39m
+[32mESM[39m [1mdist\index.mjs.map          [22m[32m152.32 KB[39m
+[32mESM[39m [1mdist\chunk-3Q4HPHFV.mjs.map [22m[32m25.63 KB[39m
+[32mESM[39m [1mdist\chunk-T3TW4YWI.mjs.map [22m[32m8.91 KB[39m
+[32mESM[39m ÔÜí´©Å Build success in 24ms
+[34mDTS[39m Build start
+[32mDTS[39m ÔÜí´©Å Build success in 1212ms
+[32mDTS[39m [1mdist\index.d.ts    [22m[32m22.25 KB[39m
+[32mDTS[39m [1mdist\catalog.d.ts  [22m[32m15.10 KB[39m
+[32mDTS[39m [1mdist\schema.d.ts   [22m[32m4.83 KB[39m
+[32mDTS[39m [1mdist\index.d.mts   [22m[32m22.25 KB[39m
+[32mDTS[39m [1mdist\catalog.d.mts [22m[32m15.10 KB[39m
+[32mDTS[39m [1mdist\schema.d.mts  [22m[32m4.83 KB[39m
+$ tsup
+[34mCLI[39m Building entry: src/catalog.ts, src/index.ts, src/render.tsx, src/server.ts
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.1
+[34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\react-pdf\tsup.config.ts
+[34mCLI[39m Target: es2022
+[34mCLI[39m Cleaning output folder
+[34mCJS[39m Build start
+[34mESM[39m Build start
+[32mESM[39m [1mdist\catalog.mjs            [22m[32m150.00 B[39m
+[32mESM[39m [1mdist\render.mjs             [22m[32m233.00 B[39m
+[32mESM[39m [1mdist\chunk-IM6CH66H.mjs     [22m[32m12.15 KB[39m
+[32mESM[39m [1mdist\index.mjs              [22m[32m24.41 KB[39m
+[32mESM[39m [1mdist\chunk-QC736C74.mjs     [22m[32m8.28 KB[39m
+[32mESM[39m [1mdist\chunk-PH2KZC7G.mjs     [22m[32m2.69 KB[39m
+[32mESM[39m [1mdist\server.mjs             [22m[32m208.00 B[39m
+[32mESM[39m [1mdist\catalog.mjs.map        [22m[32m71.00 B[39m
+[32mESM[39m [1mdist\chunk-IM6CH66H.mjs.map [22m[32m25.96 KB[39m
+[32mESM[39m [1mdist\render.mjs.map         [22m[32m71.00 B[39m
+[32mESM[39m [1mdist\index.mjs.map          [22m[32m59.21 KB[39m
+[32mESM[39m [1mdist\chunk-QC736C74.mjs.map [22m[32m15.69 KB[39m
+[32mESM[39m [1mdist\chunk-PH2KZC7G.mjs.map [22m[32m4.03 KB[39m
+[32mESM[39m [1mdist\server.mjs.map         [22m[32m71.00 B[39m
+[32mESM[39m ÔÜí´©Å Build success in 23ms
+[32mCJS[39m [1mdist\catalog.js     [22m[32m10.32 KB[39m
+[32mCJS[39m [1mdist\render.js      [22m[32m14.17 KB[39m
+[32mCJS[39m [1mdist\index.js       [22m[32m52.77 KB[39m
+[32mCJS[39m [1mdist\server.js      [22m[32m13.02 KB[39m
+[32mCJS[39m [1mdist\catalog.js.map [22m[32m15.73 KB[39m
+[32mCJS[39m [1mdist\render.js.map  [22m[32m26.08 KB[39m
+[32mCJS[39m [1mdist\index.js.map   [22m[32m104.19 KB[39m
+[32mCJS[39m [1mdist\server.js.map  [22m[32m20.25 KB[39m
+[32mCJS[39m ÔÜí´©Å Build success in 23ms
+[34mDTS[39m Build start
+[32mDTS[39m ÔÜí´©Å Build success in 1116ms
+[32mDTS[39m [1mdist\catalog.d.ts                 [22m[32m9.89 KB[39m
+[32mDTS[39m [1mdist\index.d.ts                   [22m[32m6.82 KB[39m
+[32mDTS[39m [1mdist\server.d.ts                  [22m[32m1.90 KB[39m
+[32mDTS[39m [1mdist\render.d.ts                  [22m[32m285.00 B[39m
+[32mDTS[39m [1mdist\catalog-types-Dh9gul8V.d.ts  [22m[32m795.00 B[39m
+[32mDTS[39m [1mdist\render-CERCtZN3.d.ts         [22m[32m4.03 KB[39m
+[32mDTS[39m [1mdist\catalog.d.mts                [22m[32m9.89 KB[39m
+[32mDTS[39m [1mdist\index.d.mts                  [22m[32m6.83 KB[39m
+[32mDTS[39m [1mdist\server.d.mts                 [22m[32m1.90 KB[39m
+[32mDTS[39m [1mdist\render.d.mts                 [22m[32m287.00 B[39m
+[32mDTS[39m [1mdist\catalog-types-Dh9gul8V.d.mts [22m[32m795.00 B[39m
+[32mDTS[39m [1mdist\render-CrLxY0Zp.d.mts        [22m[32m4.03 KB[39m
+$ svelte-package -i src -o dist
+d.ts type declaration files for the following files were likely not generated due to the following errors:
+C:/Users/fjuni/json-render/packages/shadcn-svelte/src/ui/drawer/drawer-portal.svelte.ts
+  - The inferred type of 'DrawerPortal' cannot be named without a reference to '.pnpm/bits-ui@2.16.2_@internation_7d1c4930630f55465f9b30057fada02c/node_modules/bits-ui'. This is likely not portable. A type annotation is necessary.
+src -> dist
+$ tsup
+[34mCLI[39m Building entry: src/index.tsx
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.1
+[34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\devtools-react\tsup.config.ts
+[34mCLI[39m Target: es2022
+[34mCLI[39m Cleaning output folder
+[34mCJS[39m Build start
+[34mESM[39m Build start
+[32mCJS[39m [1mdist\index.js     [22m[32m6.13 KB[39m
+[32mCJS[39m [1mdist\index.js.map [22m[32m13.80 KB[39m
+[32mCJS[39m ÔÜí´©Å Build success in 10ms
+[32mESM[39m [1mdist\index.mjs     [22m[32m4.82 KB[39m
+[32mESM[39m [1mdist\index.mjs.map [22m[32m13.89 KB[39m
+[32mESM[39m ÔÜí´©Å Build success in 10ms
+[34mDTS[39m Build start
+[32mDTS[39m ÔÜí´©Å Build success in 472ms
+[32mDTS[39m [1mdist\index.d.ts  [22m[32m3.48 KB[39m
+[32mDTS[39m [1mdist\index.d.mts [22m[32m3.48 KB[39m
+$ tsup --clean
+[34mCLI[39m Building entry: {"index":"src/index.ts","page-renderer-client":"src/page-renderer-client.tsx"}
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m Building entry: {"server":"src/server.ts"}
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.5.1
+[34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\next\tsup.config.ts
+[34mCLI[39m tsup v8.5.1
+[34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\next\tsup.config.ts
+[34mCLI[39m Target: es2022
+[34mCLI[39m Target: es2022
+[34mCLI[39m Cleaning output folder
+[34mCJS[39m Build start
+[34mESM[39m Build start
+[34mCLI[39m Cleaning output folder
+[34mCJS[39m Build start
+[34mESM[39m Build start
+[32mCJS[39m [1mdist\server.js     [22m[32m18.95 KB[39m
+[32mCJS[39m [1mdist\server.js.map [22m[32m38.50 KB[39m
+[32mCJS[39m ÔÜí´©Å Build success in 68ms
+[32mCJS[39m [1mdist\page-renderer-client.js     [22m[32m262.00 B[39m
+[32mCJS[39m [1mdist\chunk-BARVMYCA.js           [22m[32m3.68 KB[39m
+[32mCJS[39m [1mdist\index.js                    [22m[32m3.93 KB[39m
+[32mCJS[39m [1mdist\page-renderer-client.js.map [22m[32m279.00 B[39m
+[32mCJS[39m [1mdist\chunk-BARVMYCA.js.map       [22m[32m2.98 KB[39m
+[32mCJS[39m [1mdist\index.js.map                [22m[32m3.01 KB[39m
+[32mCJS[39m ÔÜí´©Å Build success in 69ms
+[32mESM[39m [1mdist\server.mjs     [22m[32m17.74 KB[39m
+[32mESM[39m [1mdist\server.mjs.map [22m[32m37.08 KB[39m
+[32mESM[39m ÔÜí´©Å Build success in 69ms
+[32mESM[39m [1mdist\page-renderer-client.mjs     [22m[32m159.00 B[39m
+[32mESM[39m [1mdist\chunk-7KUUN7EK.mjs           [22m[32m3.02 KB[39m
+[32mESM[39m [1mdist\index.mjs                    [22m[32m3.38 KB[39m
+[32mESM[39m [1mdist\page-renderer-client.mjs.map [22m[32m71.00 B[39m
+[32mESM[39m [1mdist\chunk-7KUUN7EK.mjs.map       [22m[32m8.22 KB[39m
+[32mESM[39m [1mdist\index.mjs.map                [22m[32m9.28 KB[39m
+[32mESM[39m ÔÜí´©Å Build success in 71ms
+C:\Users\fjuni\json-render\packages\next:
+[ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL] @json-render/next@0.19.0 build: `tsup --clean`
+Exit status 3221226356
+$ tsup

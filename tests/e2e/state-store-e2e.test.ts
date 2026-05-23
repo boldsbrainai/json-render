@@ -1,5 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { streamText } from "ai";
+import { createOpenAI } from "@ai-sdk/openai";
 import { z } from "zod";
 import {
   defineCatalog,
@@ -18,7 +19,11 @@ import { createStore as createZustandStore } from "zustand/vanilla";
 import { atom } from "jotai";
 import { createStore as createJotaiStore } from "jotai/vanilla";
 
-const HAS_API_KEY = !!process.env.AI_GATEWAY_API_KEY;
+const HAS_API_KEY = !!process.env.LLM_BASE_URL;
+const modelProvider = createOpenAI({
+  baseURL: process.env.LLM_BASE_URL || "http://127.0.0.1:11434/v1",
+  apiKey: process.env.LLM_API_KEY || "ollama",
+});
 
 const catalog = defineCatalog(schema, {
   components: {
@@ -65,7 +70,11 @@ async function generateSpec(): Promise<Spec> {
   });
 
   const result = streamText({
-    model: "anthropic/claude-haiku-4.5",
+    model: modelProvider(
+      process.env.LLM_MODEL ||
+        process.env.AI_GATEWAY_MODEL ||
+        "qwen2.5:7b-instruct",
+    ),
     system: catalog.prompt(),
     prompt,
     temperature: 0,

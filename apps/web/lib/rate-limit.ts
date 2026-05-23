@@ -1,4 +1,4 @@
-import { createClient, type RedisClientType } from "redis";
+import { createClient } from "redis";
 
 type RateLimitResult = {
   success: boolean;
@@ -7,9 +7,11 @@ type RateLimitResult = {
   reset: number;
 };
 
-let redisClientPromise: Promise<RedisClientType> | null = null;
+type RedisClient = ReturnType<typeof createClient>;
 
-function getRedisClient(): Promise<RedisClientType> | null {
+let redisClientPromise: Promise<RedisClient> | null = null;
+
+function getRedisClient(): Promise<RedisClient> | null {
   const url = process.env.REDIS_URL;
 
   if (!url) {
@@ -18,7 +20,7 @@ function getRedisClient(): Promise<RedisClientType> | null {
 
   if (!redisClientPromise) {
     const client = createClient({ url });
-    client.on("error", (error) => {
+    client.on("error", (error: unknown) => {
       console.error("Redis rate-limit error:", error);
     });
     redisClientPromise = client.connect().then(() => client);

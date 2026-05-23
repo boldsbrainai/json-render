@@ -1,7 +1,7 @@
 import { readFile } from "fs/promises";
 import { join } from "path";
 import { convertToModelMessages, stepCountIs, streamText } from "ai";
-import type { ModelMessage, UIMessage } from "ai";
+import type { UIMessage } from "ai";
 import { createBashTool } from "bash-tool";
 import { headers } from "next/headers";
 import { allDocsPages } from "@/lib/docs-navigation";

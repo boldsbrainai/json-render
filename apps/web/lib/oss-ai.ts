@@ -1,3 +1,4 @@
+import type { LanguageModel } from "ai";
 import { createOpenAI } from "@ai-sdk/openai";
 
 const DEFAULT_BASE_URL = "http://127.0.0.1:11434/v1";
@@ -13,7 +14,7 @@ export function getModelId(fallbackModel?: string): string {
   );
 }
 
-export function createOssModel(modelId?: string) {
+export function createOssModel(modelId?: string): LanguageModel {
   const provider = createOpenAI({
     baseURL: process.env.LLM_BASE_URL || DEFAULT_BASE_URL,
     apiKey: process.env.LLM_API_KEY || DEFAULT_API_KEY,

@@ -1,0 +1,730 @@
+Scope: 32 of 59 workspace projects
+packages/core build$ tsup
+packages/core build: [34mCLI[39m Building entry: src/index.ts, src/store-utils.ts
+packages/core build: [34mCLI[39m Using tsconfig: tsconfig.json
+packages/core build: [34mCLI[39m tsup v8.5.1
+packages/core build: [34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\core\tsup.config.ts
+packages/core build: [34mCLI[39m Target: es2022
+packages/core build: [34mCLI[39m Cleaning output folder
+packages/core build: [34mCJS[39m Build start
+packages/core build: [34mESM[39m Build start
+packages/core build: [32mCJS[39m [1mdist\store-utils.js     [22m[32m5.58 KB[39m
+packages/core build: [32mCJS[39m [1mdist\index.js           [22m[32m97.05 KB[39m
+packages/core build: [32mCJS[39m [1mdist\store-utils.js.map [22m[32m52.55 KB[39m
+packages/core build: [32mCJS[39m [1mdist\index.js.map       [22m[32m254.56 KB[39m
+packages/core build: [32mCJS[39m ÔÜí´©Å Build success in 22ms
+packages/core build: [32mESM[39m [1mdist\store-utils.mjs        [22m[32m220.00 B[39m
+packages/core build: [32mESM[39m [1mdist\index.mjs              [22m[32m75.82 KB[39m
+packages/core build: [32mESM[39m [1mdist\chunk-HPGNDZYE.mjs     [22m[32m19.31 KB[39m
+packages/core build: [32mESM[39m [1mdist\store-utils.mjs.map    [22m[32m71.00 B[39m
+packages/core build: [32mESM[39m [1mdist\index.mjs.map          [22m[32m187.38 KB[39m
+packages/core build: [32mESM[39m [1mdist\chunk-HPGNDZYE.mjs.map [22m[32m63.12 KB[39m
+packages/core build: [32mESM[39m ÔÜí´©Å Build success in 22ms
+packages/core build: [34mDTS[39m Build start
+packages/core build: [32mDTS[39m ÔÜí´©Å Build success in 1145ms
+packages/core build: [32mDTS[39m [1mdist\index.d.ts                 [22m[32m36.17 KB[39m
+packages/core build: [32mDTS[39m [1mdist\store-utils.d.ts           [22m[32m160.00 B[39m
+packages/core build: [32mDTS[39m [1mdist\store-utils-D98Czbil.d.ts  [22m[32m29.33 KB[39m
+packages/core build: [32mDTS[39m [1mdist\index.d.mts                [22m[32m36.17 KB[39m
+packages/core build: [32mDTS[39m [1mdist\store-utils.d.mts          [22m[32m161.00 B[39m
+packages/core build: [32mDTS[39m [1mdist\store-utils-D98Czbil.d.mts [22m[32m29.33 KB[39m
+packages/core build: Done
+packages/codegen build$ tsup
+packages/devtools build$ tsup
+packages/directives build$ tsup
+packages/image build$ tsup
+packages/directives build: [34mCLI[39m Building entry: src/index.ts
+packages/codegen build: [34mCLI[39m Building entry: src/index.ts
+packages/codegen build: [34mCLI[39m Using tsconfig: tsconfig.json
+packages/directives build: [34mCLI[39m Using tsconfig: tsconfig.json
+packages/directives build: [34mCLI[39m tsup v8.5.1
+packages/directives build: [34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\directives\tsup.config.ts
+packages/codegen build: [34mCLI[39m tsup v8.5.1
+packages/codegen build: [34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\codegen\tsup.config.ts
+packages/image build: [34mCLI[39m Building entry: src/catalog.ts, src/index.ts, src/render.tsx, src/server.ts
+packages/image build: [34mCLI[39m Using tsconfig: tsconfig.json
+packages/image build: [34mCLI[39m tsup v8.5.1
+packages/image build: [34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\image\tsup.config.ts
+packages/codegen build: [34mCLI[39m Target: es2022
+packages/directives build: [34mCLI[39m Target: es2022
+packages/image build: [34mCLI[39m Target: es2022
+packages/directives build: [34mCLI[39m Cleaning output folder
+packages/codegen build: [34mCLI[39m Cleaning output folder
+packages/directives build: [34mCJS[39m Build start
+packages/directives build: [34mESM[39m Build start
+packages/codegen build: [34mCJS[39m Build start
+packages/codegen build: [34mESM[39m Build start
+packages/devtools build: [34mCLI[39m Building entry: src/index.ts
+packages/image build: [34mCLI[39m Cleaning output folder
+packages/devtools build: [34mCLI[39m Using tsconfig: tsconfig.json
+packages/devtools build: [34mCLI[39m tsup v8.5.1
+packages/devtools build: [34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\devtools\tsup.config.ts
+packages/image build: [34mCJS[39m Build start
+packages/image build: [34mESM[39m Build start
+packages/devtools build: [34mCLI[39m Target: es2022
+packages/devtools build: [34mCLI[39m Cleaning output folder
+packages/devtools build: [34mCJS[39m Build start
+packages/devtools build: [34mESM[39m Build start
+packages/codegen build: [32mESM[39m [1mdist\index.mjs     [22m[32m5.73 KB[39m
+packages/codegen build: [32mESM[39m [1mdist\index.mjs.map [22m[32m13.70 KB[39m
+packages/codegen build: [32mESM[39m ÔÜí´©Å Build success in 15ms
+packages/codegen build: [32mCJS[39m [1mdist\index.js     [22m[32m6.99 KB[39m
+packages/codegen build: [32mCJS[39m [1mdist\index.js.map [22m[32m14.14 KB[39m
+packages/codegen build: [32mCJS[39m ÔÜí´©Å Build success in 16ms
+packages/directives build: [32mCJS[39m [1mdist\index.js     [22m[32m10.03 KB[39m
+packages/directives build: [32mCJS[39m [1mdist\index.js.map [22m[32m16.97 KB[39m
+packages/directives build: [32mCJS[39m ÔÜí´©Å Build success in 19ms
+packages/directives build: [32mESM[39m [1mdist\index.mjs     [22m[32m8.43 KB[39m
+packages/directives build: [32mESM[39m [1mdist\index.mjs.map [22m[32m17.21 KB[39m
+packages/directives build: [32mESM[39m ÔÜí´©Å Build success in 19ms
+packages/image build: [32mCJS[39m [1mdist\catalog.js     [22m[32m8.25 KB[39m
+packages/image build: [32mCJS[39m [1mdist\render.js      [22m[32m10.28 KB[39m
+packages/image build: [32mCJS[39m [1mdist\index.js       [22m[32m19.16 KB[39m
+packages/image build: [32mCJS[39m [1mdist\server.js      [22m[32m9.90 KB[39m
+packages/image build: [32mCJS[39m [1mdist\catalog.js.map [22m[32m12.55 KB[39m
+packages/image build: [32mCJS[39m [1mdist\render.js.map  [22m[32m18.93 KB[39m
+packages/image build: [32mCJS[39m [1mdist\index.js.map   [22m[32m35.15 KB[39m
+packages/image build: [32mCJS[39m [1mdist\server.js.map  [22m[32m15.97 KB[39m
+packages/image build: [32mCJS[39m ÔÜí´©Å Build success in 28ms
+packages/image build: [32mESM[39m [1mdist\catalog.mjs            [22m[32m150.00 B[39m
+packages/image build: [32mESM[39m [1mdist\index.mjs              [22m[32m350.00 B[39m
+packages/image build: [32mESM[39m [1mdist\render.mjs             [22m[32m189.00 B[39m
+packages/image build: [32mESM[39m [1mdist\chunk-TZJPEMRQ.mjs     [22m[32m8.24 KB[39m
+packages/image build: [32mESM[39m [1mdist\chunk-4BAQVI3F.mjs     [22m[32m1.65 KB[39m
+packages/image build: [32mESM[39m [1mdist\server.mjs             [22m[32m208.00 B[39m
+packages/image build: [32mESM[39m [1mdist\chunk-5Y63UW22.mjs     [22m[32m6.33 KB[39m
+packages/image build: [32mESM[39m [1mdist\catalog.mjs.map        [22m[32m71.00 B[39m
+packages/image build: [32mESM[39m [1mdist\index.mjs.map          [22m[32m71.00 B[39m
+packages/image build: [32mESM[39m [1mdist\render.mjs.map         [22m[32m71.00 B[39m
+packages/image build: [32mESM[39m [1mdist\chunk-4BAQVI3F.mjs.map [22m[32m2.94 KB[39m
+packages/image build: [32mESM[39m [1mdist\chunk-TZJPEMRQ.mjs.map [22m[32m18.92 KB[39m
+packages/image build: [32mESM[39m [1mdist\server.mjs.map         [22m[32m71.00 B[39m
+packages/image build: [32mESM[39m [1mdist\chunk-5Y63UW22.mjs.map [22m[32m12.51 KB[39m
+packages/image build: [32mESM[39m ÔÜí´©Å Build success in 28ms
+packages/devtools build: [32mCJS[39m [1mdist\index.js     [22m[32m90.42 KB[39m
+packages/devtools build: [32mCJS[39m [1mdist\index.js.map [22m[32m194.47 KB[39m
+packages/devtools build: [32mCJS[39m ÔÜí´©Å Build success in 28ms
+packages/devtools build: [32mESM[39m [1mdist\index.mjs     [22m[32m88.30 KB[39m
+packages/devtools build: [32mESM[39m [1mdist\index.mjs.map [22m[32m193.05 KB[39m
+packages/devtools build: [32mESM[39m ÔÜí´©Å Build success in 30ms
+packages/directives build: [34mDTS[39m Build start
+packages/codegen build: [34mDTS[39m Build start
+packages/image build: [34mDTS[39m Build start
+packages/devtools build: [34mDTS[39m Build start
+packages/codegen build: [32mDTS[39m ÔÜí´©Å Build success in 493ms
+packages/codegen build: [32mDTS[39m [1mdist\index.d.ts  [22m[32m1.97 KB[39m
+packages/codegen build: [32mDTS[39m [1mdist\index.d.mts [22m[32m1.97 KB[39m
+packages/codegen build: Done
+packages/jotai build$ tsup
+packages/devtools build: [32mDTS[39m ÔÜí´©Å Build success in 734ms
+packages/devtools build: [32mDTS[39m [1mdist\index.d.ts  [22m[32m19.02 KB[39m
+packages/devtools build: [32mDTS[39m [1mdist\index.d.mts [22m[32m19.02 KB[39m
+packages/devtools build: Done
+packages/mcp build$ tsup
+packages/directives build: [32mDTS[39m ÔÜí´©Å Build success in 797ms
+packages/directives build: [32mDTS[39m [1mdist\index.d.ts  [22m[32m4.78 KB[39m
+packages/directives build: [32mDTS[39m [1mdist\index.d.mts [22m[32m4.78 KB[39m
+packages/jotai build: [34mCLI[39m Building entry: src/index.ts
+packages/jotai build: [34mCLI[39m Using tsconfig: tsconfig.json
+packages/jotai build: [34mCLI[39m tsup v8.5.1
+packages/jotai build: [34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\jotai\tsup.config.ts
+packages/jotai build: [34mCLI[39m Target: es2022
+packages/jotai build: [34mCLI[39m Cleaning output folder
+packages/jotai build: [34mCJS[39m Build start
+packages/jotai build: [34mESM[39m Build start
+packages/jotai build: [32mCJS[39m [1mdist\index.js     [22m[32m1.54 KB[39m
+packages/jotai build: [32mCJS[39m [1mdist\index.js.map [22m[32m2.46 KB[39m
+packages/jotai build: [32mCJS[39m ÔÜí´©Å Build success in 10ms
+packages/jotai build: [32mESM[39m [1mdist\index.mjs     [22m[32m538.00 B[39m
+packages/jotai build: [32mESM[39m [1mdist\index.mjs.map [22m[32m2.41 KB[39m
+packages/jotai build: [32mESM[39m ÔÜí´©Å Build success in 11ms
+packages/directives build: Done
+packages/react-email build$ tsup
+packages/jotai build: [34mDTS[39m Build start
+packages/mcp build: [34mCLI[39m Building entry: src/app.ts, src/build-app-html-entry.ts, src/index.ts
+packages/mcp build: [34mCLI[39m Using tsconfig: tsconfig.json
+packages/mcp build: [34mCLI[39m tsup v8.5.1
+packages/mcp build: [34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\mcp\tsup.config.ts
+packages/mcp build: [34mCLI[39m Target: es2022
+packages/mcp build: [34mCLI[39m Cleaning output folder
+packages/mcp build: [34mCJS[39m Build start
+packages/mcp build: [34mESM[39m Build start
+packages/mcp build: [32mCJS[39m [1mdist\app.js                      [22m[32m3.70 KB[39m
+packages/mcp build: [32mCJS[39m [1mdist\build-app-html-entry.js     [22m[32m1.71 KB[39m
+packages/mcp build: [32mCJS[39m [1mdist\index.js                    [22m[32m4.05 KB[39m
+packages/mcp build: [32mCJS[39m [1mdist\build-app-html-entry.js.map [22m[32m2.97 KB[39m
+packages/mcp build: [32mCJS[39m [1mdist\app.js.map                  [22m[32m9.33 KB[39m
+packages/mcp build: [32mCJS[39m [1mdist\index.js.map                [22m[32m6.61 KB[39m
+packages/mcp build: [32mCJS[39m ÔÜí´©Å Build success in 16ms
+packages/mcp build: [32mESM[39m [1mdist\app.mjs                      [22m[32m2.02 KB[39m
+packages/mcp build: [32mESM[39m [1mdist\build-app-html-entry.mjs     [22m[32m131.00 B[39m
+packages/mcp build: [32mESM[39m [1mdist\chunk-WM3MCDHG.mjs           [22m[32m655.00 B[39m
+packages/mcp build: [32mESM[39m [1mdist\index.mjs                    [22m[32m2.33 KB[39m
+packages/mcp build: [32mESM[39m [1mdist\app.mjs.map                  [22m[32m5.75 KB[39m
+packages/mcp build: [32mESM[39m [1mdist\build-app-html-entry.mjs.map [22m[32m71.00 B[39m
+packages/mcp build: [32mESM[39m [1mdist\chunk-WM3MCDHG.mjs.map       [22m[32m2.54 KB[39m
+packages/mcp build: [32mESM[39m [1mdist\index.mjs.map                [22m[32m6.26 KB[39m
+packages/mcp build: [32mESM[39m ÔÜí´©Å Build success in 16ms
+packages/image build: [32mDTS[39m ÔÜí´©Å Build success in 1082ms
+packages/image build: [32mDTS[39m [1mdist\index.d.ts            [22m[32m526.00 B[39m
+packages/image build: [32mDTS[39m [1mdist\catalog.d.ts          [22m[32m8.77 KB[39m
+packages/image build: [32mDTS[39m [1mdist\server.d.ts           [22m[32m2.43 KB[39m
+packages/image build: [32mDTS[39m [1mdist\render.d.ts           [22m[32m181.00 B[39m
+packages/image build: [32mDTS[39m [1mdist\render-DyXCSaYW.d.ts  [22m[32m1.60 KB[39m
+packages/image build: [32mDTS[39m [1mdist\index.d.mts           [22m[32m529.00 B[39m
+packages/image build: [32mDTS[39m [1mdist\catalog.d.mts         [22m[32m8.77 KB[39m
+packages/image build: [32mDTS[39m [1mdist\server.d.mts          [22m[32m2.43 KB[39m
+packages/image build: [32mDTS[39m [1mdist\render.d.mts          [22m[32m182.00 B[39m
+packages/image build: [32mDTS[39m [1mdist\render-DyXCSaYW.d.mts [22m[32m1.60 KB[39m
+packages/react-email build: [34mCLI[39m Building entry: src/catalog.ts, src/index.ts, src/render.tsx, src/server.ts
+packages/react-email build: [34mCLI[39m Using tsconfig: tsconfig.json
+packages/react-email build: [34mCLI[39m tsup v8.5.1
+packages/react-email build: [34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\react-email\tsup.config.ts
+packages/react-email build: [34mCLI[39m Target: es2022
+packages/image build: Done
+packages/react-state build$ tsup
+packages/react-email build: [34mCLI[39m Cleaning output folder
+packages/react-email build: [34mCJS[39m Build start
+packages/react-email build: [34mESM[39m Build start
+packages/react-email build: [32mESM[39m [1mdist\render.mjs             [22m[32m203.00 B[39m
+packages/react-email build: [32mESM[39m [1mdist\chunk-SBDX2AVO.mjs     [22m[32m6.43 KB[39m
+packages/react-email build: [32mESM[39m [1mdist\chunk-2JICB7XI.mjs     [22m[32m1.88 KB[39m
+packages/react-email build: [32mESM[39m [1mdist\index.mjs              [22m[32m21.94 KB[39m
+packages/react-email build: [32mESM[39m [1mdist\catalog.mjs            [22m[32m150.00 B[39m
+packages/react-email build: [32mESM[39m [1mdist\server.mjs             [22m[32m208.00 B[39m
+packages/react-email build: [32mESM[39m [1mdist\chunk-WR3PRMGG.mjs     [22m[32m5.17 KB[39m
+packages/react-email build: [32mESM[39m [1mdist\render.mjs.map         [22m[32m71.00 B[39m
+packages/react-email build: [32mESM[39m [1mdist\chunk-2JICB7XI.mjs.map [22m[32m3.23 KB[39m
+packages/react-email build: [32mESM[39m [1mdist\chunk-SBDX2AVO.mjs.map [22m[32m14.78 KB[39m
+packages/react-email build: [32mESM[39m [1mdist\index.mjs.map          [22m[32m50.99 KB[39m
+packages/react-email build: [32mESM[39m [1mdist\catalog.mjs.map        [22m[32m71.00 B[39m
+packages/react-email build: [32mESM[39m [1mdist\server.mjs.map         [22m[32m71.00 B[39m
+packages/react-email build: [32mESM[39m [1mdist\chunk-WR3PRMGG.mjs.map [22m[32m9.80 KB[39m
+packages/react-email build: [32mESM[39m ÔÜí´©Å Build success in 27ms
+packages/react-email build: [32mCJS[39m [1mdist\catalog.js     [22m[32m6.58 KB[39m
+packages/react-email build: [32mCJS[39m [1mdist\index.js       [22m[32m39.35 KB[39m
+packages/react-email build: [32mCJS[39m [1mdist\render.js      [22m[32m7.91 KB[39m
+packages/react-email build: [32mCJS[39m [1mdist\server.js      [22m[32m8.46 KB[39m
+packages/react-email build: [32mCJS[39m [1mdist\catalog.js.map [22m[32m9.84 KB[39m
+packages/react-email build: [32mCJS[39m [1mdist\server.js.map  [22m[32m13.58 KB[39m
+packages/react-email build: [32mCJS[39m [1mdist\index.js.map   [22m[32m80.13 KB[39m
+packages/react-email build: [32mCJS[39m [1mdist\render.js.map  [22m[32m14.91 KB[39m
+packages/react-email build: [32mCJS[39m ÔÜí´©Å Build success in 28ms
+packages/mcp build: [34mDTS[39m Build start
+packages/react-email build: [34mDTS[39m Build start
+packages/react-state build: [34mCLI[39m Building entry: src/index.tsx
+packages/react-state build: [34mCLI[39m Using tsconfig: tsconfig.json
+packages/react-state build: [34mCLI[39m tsup v8.5.1
+packages/react-state build: [34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\react-state\tsup.config.ts
+packages/react-state build: [34mCLI[39m Target: es2022
+packages/react-state build: [34mCLI[39m Cleaning output folder
+packages/react-state build: [34mCJS[39m Build start
+packages/react-state build: [34mESM[39m Build start
+packages/react-state build: [32mCJS[39m [1mdist\index.js     [22m[32m5.81 KB[39m
+packages/react-state build: [32mCJS[39m [1mdist\index.js.map [22m[32m10.39 KB[39m
+packages/react-state build: [32mCJS[39m ÔÜí´©Å Build success in 15ms
+packages/react-state build: [32mESM[39m [1mdist\index.mjs     [22m[32m4.35 KB[39m
+packages/react-state build: [32mESM[39m [1mdist\index.mjs.map [22m[32m10.41 KB[39m
+packages/react-state build: [32mESM[39m ÔÜí´©Å Build success in 16ms
+packages/jotai build: [32mDTS[39m ÔÜí´©Å Build success in 471ms
+packages/jotai build: [32mDTS[39m [1mdist\index.d.ts  [22m[32m1.51 KB[39m
+packages/jotai build: [32mDTS[39m [1mdist\index.d.mts [22m[32m1.51 KB[39m
+packages/jotai build: Done
+packages/redux build$ tsup
+packages/react-state build: [34mDTS[39m Build start
+packages/redux build: [34mCLI[39m Building entry: src/index.ts
+packages/redux build: [34mCLI[39m Using tsconfig: tsconfig.json
+packages/redux build: [34mCLI[39m tsup v8.5.1
+packages/redux build: [34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\redux\tsup.config.ts
+packages/redux build: [34mCLI[39m Target: es2022
+packages/redux build: [34mCLI[39m Cleaning output folder
+packages/redux build: [34mCJS[39m Build start
+packages/redux build: [34mESM[39m Build start
+packages/redux build: [32mCJS[39m [1mdist\index.js     [22m[32m1.70 KB[39m
+packages/redux build: [32mCJS[39m [1mdist\index.js.map [22m[32m3.44 KB[39m
+packages/redux build: [32mCJS[39m ÔÜí´©Å Build success in 11ms
+packages/redux build: [32mESM[39m [1mdist\index.mjs     [22m[32m694.00 B[39m
+packages/redux build: [32mESM[39m [1mdist\index.mjs.map [22m[32m3.40 KB[39m
+packages/redux build: [32mESM[39m ÔÜí´©Å Build success in 11ms
+packages/redux build: [34mDTS[39m Build start
+packages/react-state build: [32mDTS[39m ÔÜí´©Å Build success in 484ms
+packages/react-state build: [32mDTS[39m [1mdist\index.d.ts  [22m[32m2.45 KB[39m
+packages/react-state build: [32mDTS[39m [1mdist\index.d.mts [22m[32m2.45 KB[39m
+packages/react-state build: Done
+packages/remotion build$ tsup
+packages/mcp build: [32mDTS[39m ÔÜí´©Å Build success in 928ms
+packages/mcp build: [32mDTS[39m [1mdist\app.d.ts                   [22m[32m1.69 KB[39m
+packages/mcp build: [32mDTS[39m [1mdist\index.d.ts                 [22m[32m3.54 KB[39m
+packages/mcp build: [32mDTS[39m [1mdist\build-app-html-entry.d.ts  [22m[32m1.39 KB[39m
+packages/mcp build: [32mDTS[39m [1mdist\app.d.mts                  [22m[32m1.69 KB[39m
+packages/mcp build: [32mDTS[39m [1mdist\index.d.mts                [22m[32m3.54 KB[39m
+packages/mcp build: [32mDTS[39m [1mdist\build-app-html-entry.d.mts [22m[32m1.39 KB[39m
+packages/mcp build: Done
+packages/solid build$ tsup
+packages/react-email build: [32mDTS[39m ÔÜí´©Å Build success in 1113ms
+packages/react-email build: [32mDTS[39m [1mdist\catalog.d.ts                 [22m[32m5.81 KB[39m
+packages/react-email build: [32mDTS[39m [1mdist\index.d.ts                   [22m[32m5.25 KB[39m
+packages/react-email build: [32mDTS[39m [1mdist\server.d.ts                  [22m[32m1.91 KB[39m
+packages/react-email build: [32mDTS[39m [1mdist\render.d.ts                  [22m[32m267.00 B[39m
+packages/react-email build: [32mDTS[39m [1mdist\catalog-types-Dh9gul8V.d.ts  [22m[32m795.00 B[39m
+packages/react-email build: [32mDTS[39m [1mdist\render-DFHuQRW0.d.ts         [22m[32m3.68 KB[39m
+packages/react-email build: [32mDTS[39m [1mdist\catalog.d.mts                [22m[32m5.81 KB[39m
+packages/react-email build: [32mDTS[39m [1mdist\index.d.mts                  [22m[32m5.25 KB[39m
+packages/react-email build: [32mDTS[39m [1mdist\server.d.mts                 [22m[32m1.91 KB[39m
+packages/react-email build: [32mDTS[39m [1mdist\render.d.mts                 [22m[32m269.00 B[39m
+packages/react-email build: [32mDTS[39m [1mdist\catalog-types-Dh9gul8V.d.mts [22m[32m795.00 B[39m
+packages/react-email build: [32mDTS[39m [1mdist\render-kNHi7tZ2.d.mts        [22m[32m3.68 KB[39m
+packages/redux build: [32mDTS[39m ÔÜí´©Å Build success in 435ms
+packages/redux build: [32mDTS[39m [1mdist\index.d.ts  [22m[32m1.93 KB[39m
+packages/redux build: [32mDTS[39m [1mdist\index.d.mts [22m[32m1.93 KB[39m
+packages/remotion build: [34mCLI[39m Building entry: src/index.ts, src/server.ts
+packages/remotion build: [34mCLI[39m Using tsconfig: tsconfig.json
+packages/remotion build: [34mCLI[39m tsup v8.5.1
+packages/remotion build: [34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\remotion\tsup.config.ts
+packages/remotion build: [34mCLI[39m Target: es2022
+packages/remotion build: [34mCLI[39m Cleaning output folder
+packages/react-email build: Done
+packages/svelte build$ svelte-package -i src -o dist
+packages/remotion build: [34mCJS[39m Build start
+packages/remotion build: [34mESM[39m Build start
+packages/redux build: Done
+packages/vue build$ tsup
+packages/remotion build: [32mESM[39m [1mdist\index.mjs              [22m[32m20.24 KB[39m
+packages/remotion build: [32mESM[39m [1mdist\server.mjs             [22m[32m293.00 B[39m
+packages/remotion build: [32mESM[39m [1mdist\chunk-OR3KO6DZ.mjs     [22m[32m16.40 KB[39m
+packages/remotion build: [32mESM[39m [1mdist\server.mjs.map         [22m[32m71.00 B[39m
+packages/remotion build: [32mESM[39m [1mdist\index.mjs.map          [22m[32m42.61 KB[39m
+packages/remotion build: [32mESM[39m [1mdist\chunk-OR3KO6DZ.mjs.map [22m[32m28.61 KB[39m
+packages/remotion build: [32mESM[39m ÔÜí´©Å Build success in 19ms
+packages/remotion build: [32mCJS[39m [1mdist\index.js      [22m[32m41.16 KB[39m
+packages/remotion build: [32mCJS[39m [1mdist\server.js     [22m[32m18.25 KB[39m
+packages/remotion build: [32mCJS[39m [1mdist\server.js.map [22m[32m29.87 KB[39m
+packages/remotion build: [32mCJS[39m [1mdist\index.js.map  [22m[32m72.76 KB[39m
+packages/remotion build: [32mCJS[39m ÔÜí´©Å Build success in 20ms
+packages/remotion build: [34mDTS[39m Build start
+packages/solid build: [34mCLI[39m Building entry: src/index.ts, src/schema.ts
+packages/solid build: [34mCLI[39m Using tsconfig: tsconfig.json
+packages/solid build: [34mCLI[39m tsup v8.5.1
+packages/solid build: [34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\solid\tsup.config.ts
+packages/solid build: [34mCLI[39m Target: es2022
+packages/solid build: [34mCLI[39m Cleaning output folder
+packages/solid build: [34mCJS[39m Build start
+packages/solid build: [34mESM[39m Build start
+packages/vue build: [34mCLI[39m Building entry: src/index.ts, src/schema.ts
+packages/vue build: [34mCLI[39m Using tsconfig: tsconfig.json
+packages/vue build: [34mCLI[39m tsup v8.5.1
+packages/vue build: [34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\vue\tsup.config.ts
+packages/vue build: [34mCLI[39m Target: es2022
+packages/vue build: [34mCLI[39m Cleaning output folder
+packages/vue build: [34mCJS[39m Build start
+packages/vue build: [34mESM[39m Build start
+packages/vue build: [32mCJS[39m [1mdist\index.js      [22m[32m60.92 KB[39m
+packages/vue build: [32mCJS[39m [1mdist\schema.js     [22m[32m5.79 KB[39m
+packages/vue build: [32mCJS[39m [1mdist\index.js.map  [22m[32m137.53 KB[39m
+packages/vue build: [32mCJS[39m [1mdist\schema.js.map [22m[32m6.85 KB[39m
+packages/vue build: [32mCJS[39m ÔÜí´©Å Build success in 25ms
+packages/vue build: [32mESM[39m [1mdist\index.mjs              [22m[32m52.93 KB[39m
+packages/vue build: [32mESM[39m [1mdist\schema.mjs             [22m[32m105.00 B[39m
+packages/vue build: [32mESM[39m [1mdist\chunk-IHU7OLTB.mjs     [22m[32m4.81 KB[39m
+packages/vue build: [32mESM[39m [1mdist\schema.mjs.map         [22m[32m71.00 B[39m
+packages/vue build: [32mESM[39m [1mdist\chunk-IHU7OLTB.mjs.map [22m[32m6.82 KB[39m
+packages/vue build: [32mESM[39m [1mdist\index.mjs.map          [22m[32m132.03 KB[39m
+packages/vue build: [32mESM[39m ÔÜí´©Å Build success in 25ms
+packages/solid build: [32mCJS[39m [1mdist\index.js      [22m[32m61.18 KB[39m
+packages/solid build: [32mCJS[39m [1mdist\schema.js     [22m[32m5.89 KB[39m
+packages/solid build: [32mCJS[39m [1mdist\index.js.map  [22m[32m135.01 KB[39m
+packages/solid build: [32mCJS[39m [1mdist\schema.js.map [22m[32m7.20 KB[39m
+packages/solid build: [32mCJS[39m ÔÜí´©Å Build success in 217ms
+packages/solid build: [32mESM[39m [1mdist\chunk-HKKU5HEQ.mjs     [22m[32m4.86 KB[39m
+packages/solid build: [32mESM[39m [1mdist\index.mjs              [22m[32m52.89 KB[39m
+packages/solid build: [32mESM[39m [1mdist\schema.mjs             [22m[32m147.00 B[39m
+packages/solid build: [32mESM[39m [1mdist\chunk-HKKU5HEQ.mjs.map [22m[32m7.15 KB[39m
+packages/solid build: [32mESM[39m [1mdist\schema.mjs.map         [22m[32m71.00 B[39m
+packages/solid build: [32mESM[39m [1mdist\index.mjs.map          [22m[32m128.30 KB[39m
+packages/solid build: [32mESM[39m ÔÜí´©Å Build success in 217ms
+packages/solid build: [34mDTS[39m Build start
+packages/vue build: [34mDTS[39m Build start
+packages/remotion build: [32mDTS[39m ÔÜí´©Å Build success in 1118ms
+packages/remotion build: [32mDTS[39m [1mdist\index.d.ts   [22m[32m6.87 KB[39m
+packages/remotion build: [32mDTS[39m [1mdist\server.d.ts  [22m[32m18.43 KB[39m
+packages/remotion build: [32mDTS[39m [1mdist\index.d.mts  [22m[32m6.87 KB[39m
+packages/remotion build: [32mDTS[39m [1mdist\server.d.mts [22m[32m18.43 KB[39m
+packages/remotion build: Done
+packages/xstate build$ tsup
+packages/solid build: [32mDTS[39m ÔÜí´©Å Build success in 986ms
+packages/solid build: [32mDTS[39m [1mdist\index.d.ts   [22m[32m22.06 KB[39m
+packages/solid build: [32mDTS[39m [1mdist\schema.d.ts  [22m[32m4.77 KB[39m
+packages/solid build: [32mDTS[39m [1mdist\index.d.mts  [22m[32m22.06 KB[39m
+packages/solid build: [32mDTS[39m [1mdist\schema.d.mts [22m[32m4.77 KB[39m
+packages/solid build: Done
+packages/yaml build$ tsup
+packages/svelte build: src -> dist
+packages/svelte build: Done
+packages/zustand build$ tsup
+packages/xstate build: [34mCLI[39m Building entry: src/index.ts
+packages/xstate build: [34mCLI[39m Using tsconfig: tsconfig.json
+packages/xstate build: [34mCLI[39m tsup v8.5.1
+packages/xstate build: [34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\xstate\tsup.config.ts
+packages/xstate build: [34mCLI[39m Target: es2022
+packages/xstate build: [34mCLI[39m Cleaning output folder
+packages/xstate build: [34mCJS[39m Build start
+packages/xstate build: [34mESM[39m Build start
+packages/xstate build: [32mESM[39m [1mdist\index.mjs     [22m[32m481.00 B[39m
+packages/xstate build: [32mESM[39m [1mdist\index.mjs.map [22m[32m1.70 KB[39m
+packages/xstate build: [32mESM[39m ÔÜí´©Å Build success in 9ms
+packages/xstate build: [32mCJS[39m [1mdist\index.js     [22m[32m1.50 KB[39m
+packages/xstate build: [32mCJS[39m [1mdist\index.js.map [22m[32m1.74 KB[39m
+packages/xstate build: [32mCJS[39m ÔÜí´©Å Build success in 11ms
+packages/yaml build: [34mCLI[39m Building entry: src/index.ts
+packages/yaml build: [34mCLI[39m Using tsconfig: tsconfig.json
+packages/yaml build: [34mCLI[39m tsup v8.5.1
+packages/yaml build: [34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\yaml\tsup.config.ts
+packages/yaml build: [34mCLI[39m Target: es2022
+packages/yaml build: [34mCLI[39m Cleaning output folder
+packages/yaml build: [34mCJS[39m Build start
+packages/yaml build: [34mESM[39m Build start
+packages/yaml build: [32mESM[39m [1mdist\index.mjs     [22m[32m25.77 KB[39m
+packages/yaml build: [32mESM[39m [1mdist\index.mjs.map [22m[32m54.26 KB[39m
+packages/yaml build: [32mESM[39m ÔÜí´©Å Build success in 19ms
+packages/yaml build: [32mCJS[39m [1mdist\index.js     [22m[32m27.27 KB[39m
+packages/yaml build: [32mCJS[39m [1mdist\index.js.map [22m[32m54.91 KB[39m
+packages/yaml build: [32mCJS[39m ÔÜí´©Å Build success in 19ms
+packages/xstate build: [34mDTS[39m Build start
+packages/vue build: [32mDTS[39m ÔÜí´©Å Build success in 1391ms
+packages/vue build: [32mDTS[39m [1mdist\index.d.ts   [22m[32m30.51 KB[39m
+packages/vue build: [32mDTS[39m [1mdist\schema.d.ts  [22m[32m2.52 KB[39m
+packages/vue build: [32mDTS[39m [1mdist\index.d.mts  [22m[32m30.51 KB[39m
+packages/vue build: [32mDTS[39m [1mdist\schema.d.mts [22m[32m2.52 KB[39m
+packages/zustand build: [34mCLI[39m Building entry: src/index.ts
+packages/zustand build: [34mCLI[39m Using tsconfig: tsconfig.json
+packages/zustand build: [34mCLI[39m tsup v8.5.1
+packages/zustand build: [34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\zustand\tsup.config.ts
+packages/zustand build: [34mCLI[39m Target: es2022
+packages/zustand build: [34mCLI[39m Cleaning output folder
+packages/zustand build: [34mCJS[39m Build start
+packages/zustand build: [34mESM[39m Build start
+packages/zustand build: [32mESM[39m [1mdist\index.mjs     [22m[32m742.00 B[39m
+packages/zustand build: [32mESM[39m [1mdist\index.mjs.map [22m[32m3.43 KB[39m
+packages/zustand build: [32mESM[39m ÔÜí´©Å Build success in 14ms
+packages/zustand build: [32mCJS[39m [1mdist\index.js     [22m[32m1.75 KB[39m
+packages/zustand build: [32mCJS[39m [1mdist\index.js.map [22m[32m3.47 KB[39m
+packages/zustand build: [32mCJS[39m ÔÜí´©Å Build success in 14ms
+packages/vue build: Done
+packages/yaml build: [34mDTS[39m Build start
+packages/zustand build: [34mDTS[39m Build start
+packages/xstate build: [32mDTS[39m ÔÜí´©Å Build success in 444ms
+packages/xstate build: [32mDTS[39m [1mdist\index.d.ts  [22m[32m901.00 B[39m
+packages/xstate build: [32mDTS[39m [1mdist\index.d.mts [22m[32m901.00 B[39m
+packages/xstate build: Done
+packages/yaml build: [32mDTS[39m ÔÜí´©Å Build success in 553ms
+packages/yaml build: [32mDTS[39m [1mdist\index.d.ts  [22m[32m4.47 KB[39m
+packages/yaml build: [32mDTS[39m [1mdist\index.d.mts [22m[32m4.47 KB[39m
+packages/yaml build: Done
+packages/zustand build: [32mDTS[39m ÔÜí´©Å Build success in 427ms
+packages/zustand build: [32mDTS[39m [1mdist\index.d.ts  [22m[32m1.87 KB[39m
+packages/zustand build: [32mDTS[39m [1mdist\index.d.mts [22m[32m1.87 KB[39m
+packages/zustand build: Done
+packages/devtools-solid build$ tsup
+packages/devtools-svelte build$ svelte-package -i src -o dist
+packages/devtools-vue build$ tsup
+packages/ink build$ tsup
+packages/devtools-vue build: [34mCLI[39m Building entry: src/index.ts
+packages/ink build: [34mCLI[39m Building entry: src/catalog.ts, src/index.ts, src/schema.ts, src/server.ts
+packages/devtools-vue build: [34mCLI[39m Using tsconfig: tsconfig.json
+packages/devtools-vue build: [34mCLI[39m tsup v8.5.1
+packages/devtools-vue build: [34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\devtools-vue\tsup.config.ts
+packages/ink build: [34mCLI[39m Using tsconfig: tsconfig.json
+packages/ink build: [34mCLI[39m tsup v8.5.1
+packages/ink build: [34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\ink\tsup.config.ts
+packages/devtools-vue build: [34mCLI[39m Target: es2022
+packages/ink build: [34mCLI[39m Target: es2022
+packages/devtools-vue build: [34mCLI[39m Cleaning output folder
+packages/devtools-vue build: [34mCJS[39m Build start
+packages/devtools-vue build: [34mESM[39m Build start
+packages/ink build: [34mCLI[39m Cleaning output folder
+packages/ink build: [34mCJS[39m Build start
+packages/ink build: [34mESM[39m Build start
+packages/devtools-vue build: [32mCJS[39m [1mdist\index.js     [22m[32m5.24 KB[39m
+packages/devtools-vue build: [32mCJS[39m [1mdist\index.js.map [22m[32m8.61 KB[39m
+packages/devtools-vue build: [32mCJS[39m ÔÜí´©Å Build success in 13ms
+packages/devtools-vue build: [32mESM[39m [1mdist\index.mjs     [22m[32m4.14 KB[39m
+packages/devtools-vue build: [32mESM[39m [1mdist\index.mjs.map [22m[32m8.72 KB[39m
+packages/devtools-vue build: [32mESM[39m ÔÜí´©Å Build success in 13ms
+packages/ink build: [32mCJS[39m [1mdist\catalog.js     [22m[32m20.78 KB[39m
+packages/ink build: [32mCJS[39m [1mdist\index.js       [22m[32m104.98 KB[39m
+packages/ink build: [32mCJS[39m [1mdist\server.js      [22m[32m25.89 KB[39m
+packages/ink build: [32mCJS[39m [1mdist\schema.js      [22m[32m6.09 KB[39m
+packages/ink build: [32mCJS[39m [1mdist\catalog.js.map [22m[32m33.17 KB[39m
+packages/ink build: [32mCJS[39m [1mdist\index.js.map   [22m[32m208.91 KB[39m
+packages/ink build: [32mCJS[39m [1mdist\server.js.map  [22m[32m40.70 KB[39m
+packages/ink build: [32mCJS[39m [1mdist\schema.js.map  [22m[32m7.00 KB[39m
+packages/ink build: [32mCJS[39m ÔÜí´©Å Build success in 47ms
+packages/ink build: [32mESM[39m [1mdist\catalog.mjs            [22m[32m208.00 B[39m
+packages/ink build: [32mESM[39m [1mdist\schema.mjs             [22m[32m105.00 B[39m
+packages/ink build: [32mESM[39m [1mdist\server.mjs             [22m[32m266.00 B[39m
+packages/ink build: [32mESM[39m [1mdist\index.mjs              [22m[32m71.33 KB[39m
+packages/ink build: [32mESM[39m [1mdist\chunk-TASAAJUD.mjs     [22m[32m17.42 KB[39m
+packages/ink build: [32mESM[39m [1mdist\chunk-PTVU3B3Y.mjs     [22m[32m5.11 KB[39m
+packages/ink build: [32mESM[39m [1mdist\catalog.mjs.map        [22m[32m71.00 B[39m
+packages/ink build: [32mESM[39m [1mdist\schema.mjs.map         [22m[32m71.00 B[39m
+packages/ink build: [32mESM[39m [1mdist\server.mjs.map         [22m[32m71.00 B[39m
+packages/ink build: [32mESM[39m [1mdist\index.mjs.map          [22m[32m171.66 KB[39m
+packages/ink build: [32mESM[39m [1mdist\chunk-TASAAJUD.mjs.map [22m[32m33.13 KB[39m
+packages/ink build: [32mESM[39m [1mdist\chunk-PTVU3B3Y.mjs.map [22m[32m6.96 KB[39m
+packages/ink build: [32mESM[39m ÔÜí´©Å Build success in 47ms
+packages/devtools-solid build: [34mCLI[39m Building entry: src/index.tsx
+packages/devtools-solid build: [34mCLI[39m Using tsconfig: tsconfig.json
+packages/devtools-solid build: [34mCLI[39m tsup v8.5.1
+packages/devtools-solid build: [34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\devtools-solid\tsup.config.ts
+packages/devtools-solid build: [34mCLI[39m Target: es2022
+packages/devtools-solid build: [34mCLI[39m Cleaning output folder
+packages/devtools-solid build: [34mCJS[39m Build start
+packages/devtools-solid build: [34mESM[39m Build start
+packages/ink build: [34mDTS[39m Build start
+packages/devtools-vue build: [34mDTS[39m Build start
+packages/devtools-solid build: [32mCJS[39m [1mdist\index.js     [22m[32m3.98 KB[39m
+packages/devtools-solid build: [32mCJS[39m [1mdist\index.js.map [22m[32m7.63 KB[39m
+packages/devtools-solid build: [32mCJS[39m ÔÜí´©Å Build success in 96ms
+packages/devtools-solid build: [32mESM[39m [1mdist\index.mjs     [22m[32m2.78 KB[39m
+packages/devtools-solid build: [32mESM[39m [1mdist\index.mjs.map [22m[32m7.72 KB[39m
+packages/devtools-solid build: [32mESM[39m ÔÜí´©Å Build success in 97ms
+packages/devtools-solid build: [34mDTS[39m Build start
+packages/devtools-vue build: [32mDTS[39m ÔÜí´©Å Build success in 709ms
+packages/devtools-vue build: [32mDTS[39m [1mdist\index.d.ts  [22m[32m4.12 KB[39m
+packages/devtools-vue build: [32mDTS[39m [1mdist\index.d.mts [22m[32m4.12 KB[39m
+packages/devtools-solid build: [32mDTS[39m ÔÜí´©Å Build success in 525ms
+packages/devtools-solid build: [32mDTS[39m [1mdist\index.d.ts  [22m[32m1.76 KB[39m
+packages/devtools-solid build: [32mDTS[39m [1mdist\index.d.mts [22m[32m1.76 KB[39m
+packages/devtools-svelte build: src -> dist
+packages/devtools-vue build: Done
+packages/react build$ tsup
+packages/devtools-svelte build: Done
+packages/devtools-solid build: Done
+packages/react-native build$ tsup
+packages/react-pdf build$ tsup
+packages/react-pdf build: [34mCLI[39m Building entry: src/catalog.ts, src/index.ts, src/render.tsx, src/server.ts
+packages/react build: [34mCLI[39m Building entry: src/index.ts, src/schema.ts
+packages/react-pdf build: [34mCLI[39m Using tsconfig: tsconfig.json
+packages/react-pdf build: [34mCLI[39m tsup v8.5.1
+packages/react-pdf build: [34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\react-pdf\tsup.config.ts
+packages/react build: [34mCLI[39m Using tsconfig: tsconfig.json
+packages/react build: [34mCLI[39m tsup v8.5.1
+packages/react build: [34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\react\tsup.config.ts
+packages/react-native build: [34mCLI[39m Building entry: src/catalog.ts, src/index.ts, src/schema.ts
+packages/react-native build: [34mCLI[39m Using tsconfig: tsconfig.json
+packages/react-pdf build: [34mCLI[39m Target: es2022
+packages/react-native build: [34mCLI[39m tsup v8.5.1
+packages/react-native build: [34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\react-native\tsup.config.ts
+packages/react build: [34mCLI[39m Target: es2022
+packages/react-native build: [34mCLI[39m Target: es2022
+packages/react build: [34mCLI[39m Cleaning output folder
+packages/react build: [34mCJS[39m Build start
+packages/react build: [34mESM[39m Build start
+packages/react-pdf build: [34mCLI[39m Cleaning output folder
+packages/react-pdf build: [34mCJS[39m Build start
+packages/react-pdf build: [34mESM[39m Build start
+packages/react-native build: [34mCLI[39m Cleaning output folder
+packages/react-native build: [34mCJS[39m Build start
+packages/react-native build: [34mESM[39m Build start
+packages/react build: [32mCJS[39m [1mdist\index.js      [22m[32m60.14 KB[39m
+packages/react build: [32mCJS[39m [1mdist\schema.js     [22m[32m5.89 KB[39m
+packages/react build: [32mCJS[39m [1mdist\schema.js.map [22m[32m7.20 KB[39m
+packages/react build: [32mCJS[39m [1mdist\index.js.map  [22m[32m138.29 KB[39m
+packages/react build: [32mCJS[39m ÔÜí´©Å Build success in 35ms
+packages/react build: [32mESM[39m [1mdist\index.mjs              [22m[32m50.63 KB[39m
+packages/react build: [32mESM[39m [1mdist\schema.mjs             [22m[32m147.00 B[39m
+packages/react build: [32mESM[39m [1mdist\chunk-WAR6QN2C.mjs     [22m[32m4.86 KB[39m
+packages/react build: [32mESM[39m [1mdist\schema.mjs.map         [22m[32m71.00 B[39m
+packages/react build: [32mESM[39m [1mdist\index.mjs.map          [22m[32m132.24 KB[39m
+packages/react build: [32mESM[39m [1mdist\chunk-WAR6QN2C.mjs.map [22m[32m7.15 KB[39m
+packages/react build: [32mESM[39m ÔÜí´©Å Build success in 35ms
+packages/react-pdf build: [32mESM[39m [1mdist\catalog.mjs            [22m[32m150.00 B[39m
+packages/react-pdf build: [32mESM[39m [1mdist\render.mjs             [22m[32m233.00 B[39m
+packages/react-pdf build: [32mESM[39m [1mdist\chunk-IM6CH66H.mjs     [22m[32m12.15 KB[39m
+packages/react-pdf build: [32mESM[39m [1mdist\index.mjs              [22m[32m24.41 KB[39m
+packages/react-pdf build: [32mESM[39m [1mdist\chunk-QC736C74.mjs     [22m[32m8.28 KB[39m
+packages/react-pdf build: [32mESM[39m [1mdist\server.mjs             [22m[32m208.00 B[39m
+packages/react-pdf build: [32mESM[39m [1mdist\chunk-PH2KZC7G.mjs     [22m[32m2.69 KB[39m
+packages/react-pdf build: [32mESM[39m [1mdist\catalog.mjs.map        [22m[32m71.00 B[39m
+packages/react-pdf build: [32mESM[39m [1mdist\render.mjs.map         [22m[32m71.00 B[39m
+packages/react-pdf build: [32mESM[39m [1mdist\chunk-IM6CH66H.mjs.map [22m[32m25.96 KB[39m
+packages/react-pdf build: [32mESM[39m [1mdist\index.mjs.map          [22m[32m59.21 KB[39m
+packages/react-pdf build: [32mESM[39m [1mdist\chunk-QC736C74.mjs.map [22m[32m15.69 KB[39m
+packages/react-pdf build: [32mESM[39m [1mdist\server.mjs.map         [22m[32m71.00 B[39m
+packages/react-pdf build: [32mESM[39m [1mdist\chunk-PH2KZC7G.mjs.map [22m[32m4.03 KB[39m
+packages/react-pdf build: [32mESM[39m ÔÜí´©Å Build success in 37ms
+packages/react-pdf build: [32mCJS[39m [1mdist\catalog.js     [22m[32m10.32 KB[39m
+packages/react-pdf build: [32mCJS[39m [1mdist\index.js       [22m[32m52.77 KB[39m
+packages/react-pdf build: [32mCJS[39m [1mdist\server.js      [22m[32m13.02 KB[39m
+packages/react-pdf build: [32mCJS[39m [1mdist\render.js      [22m[32m14.17 KB[39m
+packages/react-pdf build: [32mCJS[39m [1mdist\catalog.js.map [22m[32m15.73 KB[39m
+packages/react-pdf build: [32mCJS[39m [1mdist\server.js.map  [22m[32m20.25 KB[39m
+packages/react-pdf build: [32mCJS[39m [1mdist\index.js.map   [22m[32m104.19 KB[39m
+packages/react-pdf build: [32mCJS[39m [1mdist\render.js.map  [22m[32m26.08 KB[39m
+packages/react-pdf build: [32mCJS[39m ÔÜí´©Å Build success in 37ms
+packages/react-native build: [32mCJS[39m [1mdist\catalog.js     [22m[32m15.89 KB[39m
+packages/react-native build: [32mCJS[39m [1mdist\index.js       [22m[32m89.38 KB[39m
+packages/react-native build: [32mCJS[39m [1mdist\schema.js      [22m[32m7.65 KB[39m
+packages/react-native build: [32mCJS[39m [1mdist\catalog.js.map [22m[32m25.68 KB[39m
+packages/react-native build: [32mCJS[39m [1mdist\index.js.map   [22m[32m185.04 KB[39m
+packages/react-native build: [32mCJS[39m [1mdist\schema.js.map  [22m[32m8.95 KB[39m
+packages/react-native build: [32mCJS[39m ÔÜí´©Å Build success in 42ms
+packages/react-native build: [32mESM[39m [1mdist\schema.mjs             [22m[32m147.00 B[39m
+packages/react-native build: [32mESM[39m [1mdist\catalog.mjs            [22m[32m208.00 B[39m
+packages/react-native build: [32mESM[39m [1mdist\chunk-3Q4HPHFV.mjs     [22m[32m13.07 KB[39m
+packages/react-native build: [32mESM[39m [1mdist\chunk-T3TW4YWI.mjs     [22m[32m6.62 KB[39m
+packages/react-native build: [32mESM[39m [1mdist\index.mjs              [22m[32m61.25 KB[39m
+packages/react-native build: [32mESM[39m [1mdist\schema.mjs.map         [22m[32m71.00 B[39m
+packages/react-native build: [32mESM[39m [1mdist\chunk-3Q4HPHFV.mjs.map [22m[32m25.63 KB[39m
+packages/react-native build: [32mESM[39m [1mdist\catalog.mjs.map        [22m[32m71.00 B[39m
+packages/react-native build: [32mESM[39m [1mdist\chunk-T3TW4YWI.mjs.map [22m[32m8.91 KB[39m
+packages/react-native build: [32mESM[39m [1mdist\index.mjs.map          [22m[32m152.32 KB[39m
+packages/react-native build: [32mESM[39m ÔÜí´©Å Build success in 43ms
+packages/react-pdf build: [34mDTS[39m Build start
+packages/react build: [34mDTS[39m Build start
+packages/react-native build: [34mDTS[39m Build start
+packages/ink build: [32mDTS[39m ÔÜí´©Å Build success in 1530ms
+packages/ink build: [32mDTS[39m [1mdist\catalog.d.ts  [22m[32m18.05 KB[39m
+packages/ink build: [32mDTS[39m [1mdist\schema.d.ts   [22m[32m2.43 KB[39m
+packages/ink build: [32mDTS[39m [1mdist\index.d.ts    [22m[32m18.30 KB[39m
+packages/ink build: [32mDTS[39m [1mdist\server.d.ts   [22m[32m2.63 KB[39m
+packages/ink build: [32mDTS[39m [1mdist\catalog.d.mts [22m[32m18.05 KB[39m
+packages/ink build: [32mDTS[39m [1mdist\schema.d.mts  [22m[32m2.43 KB[39m
+packages/ink build: [32mDTS[39m [1mdist\index.d.mts   [22m[32m18.31 KB[39m
+packages/ink build: [32mDTS[39m [1mdist\server.d.mts  [22m[32m2.63 KB[39m
+packages/ink build: Done
+packages/shadcn-svelte build$ svelte-package -i src -o dist
+packages/react build: [32mDTS[39m ÔÜí´©Å Build success in 1380ms
+packages/react build: [32mDTS[39m [1mdist\index.d.ts   [22m[32m26.41 KB[39m
+packages/react build: [32mDTS[39m [1mdist\schema.d.ts  [22m[32m4.77 KB[39m
+packages/react build: [32mDTS[39m [1mdist\index.d.mts  [22m[32m26.41 KB[39m
+packages/react build: [32mDTS[39m [1mdist\schema.d.mts [22m[32m4.77 KB[39m
+packages/react build: Done
+packages/react-pdf build: [32mDTS[39m ÔÜí´©Å Build success in 1561ms
+packages/react-pdf build: [32mDTS[39m [1mdist\catalog.d.ts                 [22m[32m9.89 KB[39m
+packages/react-pdf build: [32mDTS[39m [1mdist\index.d.ts                   [22m[32m6.82 KB[39m
+packages/react-pdf build: [32mDTS[39m [1mdist\server.d.ts                  [22m[32m1.90 KB[39m
+packages/react-pdf build: [32mDTS[39m [1mdist\render.d.ts                  [22m[32m285.00 B[39m
+packages/react-pdf build: [32mDTS[39m [1mdist\catalog-types-Dh9gul8V.d.ts  [22m[32m795.00 B[39m
+packages/react-pdf build: [32mDTS[39m [1mdist\render-CERCtZN3.d.ts         [22m[32m4.03 KB[39m
+packages/react-pdf build: [32mDTS[39m [1mdist\catalog.d.mts                [22m[32m9.89 KB[39m
+packages/react-pdf build: [32mDTS[39m [1mdist\index.d.mts                  [22m[32m6.83 KB[39m
+packages/react-pdf build: [32mDTS[39m [1mdist\server.d.mts                 [22m[32m1.90 KB[39m
+packages/react-pdf build: [32mDTS[39m [1mdist\render.d.mts                 [22m[32m287.00 B[39m
+packages/react-pdf build: [32mDTS[39m [1mdist\catalog-types-Dh9gul8V.d.mts [22m[32m795.00 B[39m
+packages/react-pdf build: [32mDTS[39m [1mdist\render-CrLxY0Zp.d.mts        [22m[32m4.03 KB[39m
+packages/react-pdf build: Done
+packages/react-native build: [32mDTS[39m ÔÜí´©Å Build success in 1694ms
+packages/react-native build: [32mDTS[39m [1mdist\index.d.ts    [22m[32m22.25 KB[39m
+packages/react-native build: [32mDTS[39m [1mdist\catalog.d.ts  [22m[32m15.10 KB[39m
+packages/react-native build: [32mDTS[39m [1mdist\schema.d.ts   [22m[32m4.83 KB[39m
+packages/react-native build: [32mDTS[39m [1mdist\index.d.mts   [22m[32m22.25 KB[39m
+packages/react-native build: [32mDTS[39m [1mdist\catalog.d.mts [22m[32m15.10 KB[39m
+packages/react-native build: [32mDTS[39m [1mdist\schema.d.mts  [22m[32m4.83 KB[39m
+packages/react-native build: Done
+packages/shadcn-svelte build: d.ts type declaration files for the following files were likely not generated due to the following errors:
+packages/shadcn-svelte build: C:/Users/fjuni/json-render/packages/shadcn-svelte/src/ui/drawer/drawer-portal.svelte.ts
+packages/shadcn-svelte build:   - The inferred type of 'DrawerPortal' cannot be named without a reference to '.pnpm/bits-ui@2.16.2_@internation_7d1c4930630f55465f9b30057fada02c/node_modules/bits-ui'. This is likely not portable. A type annotation is necessary.
+packages/shadcn-svelte build: src -> dist
+packages/shadcn-svelte build: Done
+packages/devtools-react build$ tsup
+packages/react-three-fiber build$ tsup
+packages/shadcn build$ tsup
+packages/next build$ tsup --clean
+packages/devtools-react build: [34mCLI[39m Building entry: src/index.tsx
+packages/devtools-react build: [34mCLI[39m Using tsconfig: tsconfig.json
+packages/devtools-react build: [34mCLI[39m tsup v8.5.1
+packages/devtools-react build: [34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\devtools-react\tsup.config.ts
+packages/react-three-fiber build: [34mCLI[39m Building entry: src/catalog.ts, src/index.ts
+packages/react-three-fiber build: [34mCLI[39m Using tsconfig: tsconfig.json
+packages/react-three-fiber build: [34mCLI[39m tsup v8.5.1
+packages/react-three-fiber build: [34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\react-three-fiber\tsup.config.ts
+packages/devtools-react build: [34mCLI[39m Target: es2022
+packages/react-three-fiber build: [34mCLI[39m Target: es2022
+packages/devtools-react build: [34mCLI[39m Cleaning output folder
+packages/react-three-fiber build: [34mCLI[39m Cleaning output folder
+packages/devtools-react build: [34mCJS[39m Build start
+packages/devtools-react build: [34mESM[39m Build start
+packages/react-three-fiber build: [34mCJS[39m Build start
+packages/react-three-fiber build: [34mESM[39m Build start
+packages/shadcn build: [34mCLI[39m Building entry: src/catalog.ts, src/index.ts
+packages/shadcn build: [34mCLI[39m Using tsconfig: tsconfig.json
+packages/shadcn build: [34mCLI[39m tsup v8.5.1
+packages/shadcn build: [34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\shadcn\tsup.config.ts
+packages/next build: [34mCLI[39m Building entry: {"index":"src/index.ts","page-renderer-client":"src/page-renderer-client.tsx"}
+packages/next build: [34mCLI[39m Using tsconfig: tsconfig.json
+packages/shadcn build: [34mCLI[39m Target: es2022
+packages/next build: [34mCLI[39m Building entry: {"server":"src/server.ts"}
+packages/next build: [34mCLI[39m Using tsconfig: tsconfig.json
+packages/next build: [34mCLI[39m tsup v8.5.1
+packages/next build: [34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\next\tsup.config.ts
+packages/next build: [34mCLI[39m tsup v8.5.1
+packages/next build: [34mCLI[39m Using tsup config: C:\Users\fjuni\json-render\packages\next\tsup.config.ts
+packages/shadcn build: [34mCLI[39m Cleaning output folder
+packages/shadcn build: [34mCJS[39m Build start
+packages/shadcn build: [34mESM[39m Build start
+packages/next build: [34mCLI[39m Target: es2022
+packages/next build: [34mCLI[39m Target: es2022
+packages/devtools-react build: [32mESM[39m [1mdist\index.mjs     [22m[32m4.82 KB[39m
+packages/devtools-react build: [32mESM[39m [1mdist\index.mjs.map [22m[32m13.89 KB[39m
+packages/devtools-react build: [32mESM[39m ÔÜí´©Å Build success in 18ms
+packages/devtools-react build: [32mCJS[39m [1mdist\index.js     [22m[32m6.13 KB[39m
+packages/devtools-react build: [32mCJS[39m [1mdist\index.js.map [22m[32m13.80 KB[39m
+packages/devtools-react build: [32mCJS[39m ÔÜí´©Å Build success in 18ms
+packages/next build: [34mCLI[39m Cleaning output folder
+packages/next build: [34mCJS[39m Build start
+packages/next build: [34mESM[39m Build start
+packages/next build: [34mCLI[39m Cleaning output folder
+packages/next build: [34mCJS[39m Build start
+packages/next build: [34mESM[39m Build start
+packages/react-three-fiber build: [32mCJS[39m [1mdist\index.js       [22m[32m60.06 KB[39m
+packages/react-three-fiber build: [32mCJS[39m [1mdist\catalog.js     [22m[32m29.34 KB[39m
+packages/react-three-fiber build: [32mCJS[39m [1mdist\index.js.map   [22m[32m100.67 KB[39m
+packages/react-three-fiber build: [32mCJS[39m [1mdist\catalog.js.map [22m[32m47.00 KB[39m
+packages/react-three-fiber build: [32mCJS[39m ÔÜí´©Å Build success in 26ms
+packages/react-three-fiber build: [32mESM[39m [1mdist\index.mjs              [22m[32m28.12 KB[39m
+packages/react-three-fiber build: [32mESM[39m [1mdist\catalog.mjs            [22m[32m144.00 B[39m
+packages/react-three-fiber build: [32mESM[39m [1mdist\chunk-ZZTQGMKB.mjs     [22m[32m25.15 KB[39m
+packages/react-three-fiber build: [32mESM[39m [1mdist\index.mjs.map          [22m[32m53.02 KB[39m
+packages/react-three-fiber build: [32mESM[39m [1mdist\catalog.mjs.map        [22m[32m71.00 B[39m
+packages/react-three-fiber build: [32mESM[39m [1mdist\chunk-ZZTQGMKB.mjs.map [22m[32m47.24 KB[39m
+packages/react-three-fiber build: [32mESM[39m ÔÜí´©Å Build success in 27ms
+packages/shadcn build: [32mCJS[39m [1mdist\catalog.js     [22m[32m15.08 KB[39m
+packages/shadcn build: [32mCJS[39m [1mdist\index.js       [22m[32m108.46 KB[39m
+packages/shadcn build: [32mCJS[39m [1mdist\catalog.js.map [22m[32m24.76 KB[39m
+packages/shadcn build: [32mCJS[39m [1mdist\index.js.map   [22m[32m183.95 KB[39m
+packages/shadcn build: [32mCJS[39m ÔÜí´©Å Build success in 45ms
+packages/shadcn build: [32mESM[39m [1mdist\catalog.mjs            [22m[32m146.00 B[39m
+packages/shadcn build: [32mESM[39m [1mdist\index.mjs              [22m[32m84.65 KB[39m
+packages/shadcn build: [32mESM[39m [1mdist\chunk-JT2LE5WF.mjs     [22m[32m12.19 KB[39m
+packages/shadcn build: [32mESM[39m [1mdist\catalog.mjs.map        [22m[32m71.00 B[39m
+packages/shadcn build: [32mESM[39m [1mdist\index.mjs.map          [22m[32m159.40 KB[39m
+packages/shadcn build: [32mESM[39m [1mdist\chunk-JT2LE5WF.mjs.map [22m[32m24.72 KB[39m
+packages/shadcn build: [32mESM[39m ÔÜí´©Å Build success in 45ms
+packages/next build: [32mCJS[39m [1mdist\index.js                    [22m[32m3.93 KB[39m
+packages/next build: [32mCJS[39m [1mdist\page-renderer-client.js     [22m[32m262.00 B[39m
+packages/next build: [32mCJS[39m [1mdist\chunk-BARVMYCA.js           [22m[32m3.68 KB[39m
+packages/next build: [32mCJS[39m [1mdist\index.js.map                [22m[32m3.01 KB[39m
+packages/next build: [32mCJS[39m [1mdist\page-renderer-client.js.map [22m[32m279.00 B[39m
+packages/next build: [32mCJS[39m [1mdist\chunk-BARVMYCA.js.map       [22m[32m2.98 KB[39m
+packages/next build: [32mCJS[39m ÔÜí´©Å Build success in 87ms
+packages/next build: [32mCJS[39m [1mdist\server.js     [22m[32m18.95 KB[39m
+packages/next build: [32mCJS[39m [1mdist\server.js.map [22m[32m38.50 KB[39m
+packages/next build: [32mCJS[39m ÔÜí´©Å Build success in 88ms
+packages/next build: [32mESM[39m [1mdist\server.mjs     [22m[32m17.74 KB[39m
+packages/next build: [32mESM[39m [1mdist\server.mjs.map [22m[32m37.08 KB[39m
+packages/next build: [32mESM[39m ÔÜí´©Å Build success in 88ms
+packages/next build: [32mESM[39m [1mdist\page-renderer-client.mjs     [22m[32m159.00 B[39m
+packages/next build: [32mESM[39m [1mdist\index.mjs                    [22m[32m3.38 KB[39m
+packages/next build: [32mESM[39m [1mdist\chunk-7KUUN7EK.mjs           [22m[32m3.02 KB[39m
+packages/next build: [32mESM[39m [1mdist\page-renderer-client.mjs.map [22m[32m71.00 B[39m
+packages/next build: [32mESM[39m [1mdist\chunk-7KUUN7EK.mjs.map       [22m[32m8.22 KB[39m
+packages/next build: [32mESM[39m [1mdist\index.mjs.map                [22m[32m9.28 KB[39m
+packages/next build: [32mESM[39m ÔÜí´©Å Build success in 91ms
+packages/react-three-fiber build: [34mDTS[39m Build start
+packages/shadcn build: [34mDTS[39m Build start
+packages/devtools-react build: [34mDTS[39m Build start
+packages/next build: Failed
+C:\Users\fjuni\json-render\packages\next:
+[ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL] @json-render/next@0.19.0 build: `tsup --clean`
+Exit status 3221226356

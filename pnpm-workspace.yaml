@@ -13,3 +13,6 @@ packages:
   - "examples/stripe-app/*"
   - "packages/*"
   - "tests/*"
+
+minimumReleaseAgeExclude:
+  - '@ai-sdk/openai@3.0.65'

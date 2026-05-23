@@ -17,10 +17,10 @@ Pairs with [`@json-render/devtools`](../../packages/devtools) and [`@json-render
 ```bash
 pnpm install
 cp .env.example .env.local
-# Edit .env.local and set AI_GATEWAY_API_KEY
+# Edit .env.local and set LLM_BASE_URL
 ```
 
-Grab an AI Gateway key at <https://vercel.com/ai-gateway>. On Vercel the key is auto-authenticated, so you only need this for local dev.
+Point `LLM_BASE_URL` to a LiteLLM, Ollama, or vLLM endpoint. Set `LLM_API_KEY` and `LLM_MODEL` when your provider requires them.
 
 ## Run
 
@@ -29,7 +29,7 @@ pnpm dev
 # http://devtools-demo.json-render.localhost:1355
 ```
 
-Press <kbd>⌘</kbd> <kbd>⇧</kbd> <kbd>J</kbd> (or click the floating `{}` badge) to toggle the panel. It starts open by default.
+Press Cmd+Shift+J (or click the floating `{}` badge) to toggle the panel. It starts open by default.
 
 ## Files
 

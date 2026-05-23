@@ -10,7 +10,7 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@ai-sdk/gateway": "^3.0.39",
+    "@ai-sdk/openai": "^3.0.64",
     "@expo/vector-icons": "^15.0.3",
     "@json-render/core": "workspace:*",
     "@json-render/react-native": "workspace:*",

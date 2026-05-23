@@ -13,7 +13,7 @@
     "@json-render/core": "workspace:*",
     "@json-render/ink": "workspace:*",
     "ai": "^6.0.33",
-    "@ai-sdk/gateway": "^3.0.52",
+    "@ai-sdk/openai": "^3.0.64",
     "ink": "^6.8.0",
     "react": "19.2.4",
     "zod": "4.3.6"

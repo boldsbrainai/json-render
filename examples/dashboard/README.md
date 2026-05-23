@@ -21,12 +21,12 @@ cp .env.example .env
 Set the required environment variables:
 
 | Variable | Required | Description |
-|----------|----------|-------------|
+| ---------- | ---------- | ------------- |
 | `DATABASE_URL` | Yes | Postgres connection string |
-| `AI_GATEWAY_API_KEY` | Yes | Vercel AI Gateway key |
-| `AI_GATEWAY_MODEL` | No | Defaults to `anthropic/claude-haiku-4.5` |
-| `KV_REST_API_URL` | No | Upstash Redis URL for rate limiting |
-| `KV_REST_API_TOKEN` | No | Upstash Redis token |
+| `LLM_BASE_URL` | Yes | OpenAI-compatible endpoint for LiteLLM, Ollama, or vLLM |
+| `LLM_API_KEY` | No | API key for the provider |
+| `LLM_MODEL` | No | Defaults to the provider's configured model |
+| `REDIS_URL` | No | Redis/Valkey URL for rate limiting |
 | `RATE_LIMIT_PER_MINUTE` | No | Defaults to `10` |
 | `RATE_LIMIT_PER_DAY` | No | Defaults to `100` |
 

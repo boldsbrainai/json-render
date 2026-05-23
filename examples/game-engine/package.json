@@ -12,7 +12,7 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@ai-sdk/gateway": "^3.0.66",
+    "@ai-sdk/openai": "^3.0.64",
     "@json-render/core": "workspace:*",
     "@json-render/react": "workspace:*",
     "@json-render/react-three-fiber": "workspace:*",
@@ -21,9 +21,8 @@
     "@react-three/fiber": "^9.5.0",
     "@react-three/postprocessing": "^3.0.4",
     "@react-three/rapier": "^2.2.0",
-    "@upstash/ratelimit": "^2.0.8",
-    "@upstash/redis": "^1.37.0",
-    "@vercel/blob": "^2.3.1",
+    "minio": "^8.0.7",
+    "redis": "^5.12.1",
     "ai": "^6.0.116",
     "lucide-react": "^0.577.0",
     "next": "16.1.6",

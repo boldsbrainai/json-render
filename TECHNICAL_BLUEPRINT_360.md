@@ -225,18 +225,17 @@ Enums de domínio detectados:
 
 | Provider / serviço | Tipo de uso | Como aparece no código | Autenticação |
 | --- | --- | --- | --- |
-| Vercel AI Gateway via AI SDK | geração/streaming LLM | `streamText()` com `AI_GATEWAY_MODEL` em `apps/web/app/api/docs-chat/route.ts`, `examples/dashboard/app/api/generate/route.ts` e variantes | `AI_GATEWAY_API_KEY` via ambiente / SDK |
-| Upstash Redis REST | rate limiting | `@upstash/ratelimit` + `@upstash/redis` em `apps/web/lib/rate-limit.ts` e exemplos | `KV_REST_API_URL` + `KV_REST_API_TOKEN` |
+| LiteLLM / Ollama / vLLM via AI SDK OpenAI-compatible | geração/streaming LLM | `createOpenAI()` e helpers como `apps/web/lib/oss-ai.ts`, `examples/chat/lib/agent.ts` e variantes | `LLM_BASE_URL`, `LLM_API_KEY`, `LLM_MODEL` |
+| Redis OSS / Valkey | rate limiting | cliente `redis` com sliding/fixed window em `apps/web/lib/rate-limit.ts` e exemplos | `REDIS_URL` |
 | GitHub REST API | consulta de repositório/PRs/estrelas | `examples/chat/lib/tools/github.ts`, `apps/web/lib/github.ts` | pública em alguns pontos; sem token explícito |
 | Open-Meteo Geocoding API | geocodificação | `examples/chat/lib/tools/weather.ts` | sem autenticação |
 | Open-Meteo Forecast API | previsão do tempo | `examples/chat/lib/tools/weather.ts` | sem autenticação |
 | Hacker News Firebase API | top stories e itens | `examples/chat/lib/tools/hackernews.ts` | sem autenticação |
 | CoinGecko API | preço e histórico cripto | `examples/chat/lib/tools/crypto.ts` | sem autenticação |
-| ElevenLabs Text-to-Speech API | síntese de voz | `examples/game-engine/app/api/text-to-speech/route.ts` | header `xi-api-key` com `ELEVENLABS_API_KEY` |
-| Vercel Blob | upload de modelos/ambientes | `examples/game-engine/app/api/upload-model/route.ts` e correlatas | token/config do serviço via SDK/ambiente |
+| Piper / Coqui TTS via HTTP self-hosted | síntese de voz | `examples/game-engine/lib/tts.ts`, `examples/game-engine/app/api/text-to-speech/route.ts` | `TTS_API_URL` e opcional `TTS_API_KEY` |
+| MinIO | upload de modelos/ambientes | `examples/game-engine/lib/minio.ts`, `examples/game-engine/app/api/upload-model/route.ts` e correlatas | `MINIO_*` |
 | Stripe API via Stripe Apps UI Extension SDK | operações de clientes, payments, checkout sessions, billing portal etc. | `examples/stripe-app/fullpage-app/src/lib/render/catalog/actions.ts`, `examples/stripe-app/drawer-app/src/lib/render/catalog/actions.ts` | autenticado pelo contexto/SDK do Stripe App |
-| Vercel Analytics | telemetria frontend | `apps/web/app/layout.tsx` | implícita pelo SDK |
-| Vercel Speed Insights | performance telemetry | `apps/web/app/layout.tsx` | implícita pelo SDK |
+| Umami | telemetria frontend | `apps/web/components/umami-analytics.tsx`, `apps/web/app/layout.tsx` | `NEXT_PUBLIC_UMAMI_*` |
 
 ### Observações sobre a superfície externa
 
@@ -251,7 +250,7 @@ Enums de domínio detectados:
 | JWT/OAuth interno | não encontrado no código inspecionado | busca por bibliotecas/padrões de auth sem ocorrência operacional |
 | Sessão de usuário do app | não há camada formal de auth no app web/demos | ausência de `middleware.ts`, NextAuth, Clerk, Auth0 etc. |
 | Proteção básica | rate limiting por IP | `apps/web/lib/rate-limit.ts` e equivalentes |
-| Auth para terceiros | via chaves de ambiente e SDKs | `AI_GATEWAY_API_KEY`, `ELEVENLABS_API_KEY`, `KV_REST_API_TOKEN` |
+| Auth para terceiros | via chaves de ambiente e SDKs | `LLM_API_KEY`, `TTS_API_KEY`, `REDIS_URL`, `MINIO_*` |
 | Auth Stripe | delegada ao ambiente do Stripe App / UI Extension SDK | `examples/stripe-app/*/src/lib/render/catalog/actions.ts` |
 | RBAC | inexistente como camada explícita | não há policies, guards ou middleware de papel/perfil |
 
@@ -351,7 +350,7 @@ Evidência:
 
 Risco:
 
-- quando `KV_REST_API_URL` ou `KV_REST_API_TOKEN` não estão configurados, o limiter vira no-op e aceita tudo.
+- quando `REDIS_URL` não está configurado, o limiter vira no-op e aceita tudo.
 
 Impacto:
 
