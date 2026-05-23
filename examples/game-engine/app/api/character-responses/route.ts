@@ -1,13 +1,18 @@
 import { streamText } from "ai";
-import { gateway } from "@ai-sdk/gateway";
+import { createOpenAI } from "@ai-sdk/openai";
 import { headers } from "next/headers";
-import speechQueue from "@/lib/speech-queue";
 import { minuteRateLimit, dailyRateLimit } from "@/lib/rate-limit";
+import { synthesizeSpeechDataUrl } from "@/lib/tts";
 
 interface DialogMessage {
   text: string;
   audioUrl?: string;
 }
+
+const modelProvider = createOpenAI({
+  baseURL: process.env.LLM_BASE_URL || "http://127.0.0.1:11434/v1",
+  apiKey: process.env.LLM_API_KEY || "ollama",
+});
 
 const VOICE_MAP: Record<string, string> = {
   elder: "pNInz6obpgDQGcFmaJgB",
@@ -68,8 +73,10 @@ Example: [{"text":"Hello traveler! Welcome to our village."}, {"text":"Can I hel
 
   try {
     const result = await streamText({
-      model: gateway(
-        process.env.AI_GATEWAY_MODEL || "anthropic/claude-sonnet-4-6",
+      model: modelProvider(
+        process.env.LLM_MODEL ||
+          process.env.AI_GATEWAY_MODEL ||
+          "qwen2.5:7b-instruct",
       ),
       prompt,
     });
@@ -98,13 +105,13 @@ Example: [{"text":"Hello traveler! Welcome to our village."}, {"text":"Can I hel
       ];
     }
 
-    const hasTTS = !!process.env.ELEVENLABS_API_KEY;
+    const hasTTS = !!process.env.TTS_API_URL;
     if (hasTTS) {
       const voiceId = getVoiceIdForRole(role || "");
       const withAudio: DialogMessage[] = [];
       for (const msg of messages) {
         try {
-          const audioUrl = await speechQueue.add(msg.text, voiceId);
+          const { audioUrl } = await synthesizeSpeechDataUrl(msg.text, voiceId);
           withAudio.push({ ...msg, audioUrl });
         } catch {
           withAudio.push(msg);

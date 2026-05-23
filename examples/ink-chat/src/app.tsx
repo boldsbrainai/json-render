@@ -1,7 +1,7 @@
 import { useState, useCallback, useRef, useMemo, useEffect } from "react";
 import { Box, Text, useInput, useApp, useStdout } from "ink";
 import { streamText, stepCountIs } from "ai";
-import { gateway } from "@ai-sdk/gateway";
+import { createOpenAI } from "@ai-sdk/openai";
 import {
   createMixedStreamParser,
   createStateStore,
@@ -13,6 +13,10 @@ import { catalog } from "./catalog.js";
 import { tools } from "./tools.js";
 
 const DEFAULT_MODEL = "anthropic/claude-haiku-4.5";
+const modelProvider = createOpenAI({
+  baseURL: process.env.LLM_BASE_URL || "http://127.0.0.1:11434/v1",
+  apiKey: process.env.LLM_API_KEY || "ollama",
+});
 
 // Component types stepped through one-at-a-time in the wizard.
 // Tabs are excluded — they're navigation, rendered inline with the full spec.
@@ -452,7 +456,11 @@ export function App() {
 
     try {
       const result = streamText({
-        model: gateway(process.env.AI_GATEWAY_MODEL || DEFAULT_MODEL),
+        model: modelProvider(
+          process.env.LLM_MODEL ||
+            process.env.AI_GATEWAY_MODEL ||
+            DEFAULT_MODEL,
+        ),
         system: AGENT_INSTRUCTIONS,
         messages: history,
         temperature: 0.7,

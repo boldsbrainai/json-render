@@ -8,8 +8,13 @@
  */
 
 import { tool, generateText } from "ai";
-import { gateway } from "@ai-sdk/gateway";
+import { createOpenAI } from "@ai-sdk/openai";
 import { z } from "zod";
+
+const modelProvider = createOpenAI({
+  baseURL: process.env.LLM_BASE_URL || "http://127.0.0.1:11434/v1",
+  apiKey: process.env.LLM_API_KEY || "ollama",
+});
 
 // =============================================================================
 // Web Search (Perplexity Sonar via AI Gateway)
@@ -28,7 +33,9 @@ export const webSearch = tool({
   execute: async ({ query }) => {
     try {
       const { text } = await generateText({
-        model: gateway("perplexity/sonar"),
+        model: modelProvider(
+          process.env.WEB_SEARCH_MODEL || "perplexity/sonar",
+        ),
         prompt: query,
       });
       return { content: text };

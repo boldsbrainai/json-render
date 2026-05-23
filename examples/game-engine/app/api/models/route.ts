@@ -1,9 +1,9 @@
 import { NextResponse } from "next/server";
-import { list } from "@vercel/blob";
+import { listAssets } from "@/lib/minio";
 
 export async function GET() {
   try {
-    const { blobs } = await list({ prefix: "game-engine/models/" });
+    const blobs = await listAssets("game-engine/models/");
     const models = blobs.map((blob) => ({
       name: blob.pathname.split("/").pop() || "Unknown",
       url: blob.url,

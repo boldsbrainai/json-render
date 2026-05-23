@@ -1,5 +1,5 @@
 import { ToolLoopAgent, stepCountIs } from "ai";
-import { createGateway } from "@ai-sdk/gateway";
+import { createOpenAI } from "@ai-sdk/openai";
 import { explorerCatalog } from "./render/catalog";
 import { getWeather } from "./tools/weather";
 import { getGitHubRepo, getGitHubPullRequests } from "./tools/github";
@@ -9,6 +9,10 @@ import { webSearch } from "./tools/search";
 import { env } from "$env/dynamic/private";
 
 const DEFAULT_MODEL = "anthropic/claude-haiku-4.5";
+const modelProvider = createOpenAI({
+  baseURL: env.LLM_BASE_URL || "http://127.0.0.1:11434/v1",
+  apiKey: env.LLM_API_KEY || "ollama",
+});
 
 const AGENT_INSTRUCTIONS = `You are a knowledgeable assistant that helps users explore data and learn about any topic. You look up real-time information, build visual dashboards, and create rich educational content.
 
@@ -73,10 +77,8 @@ ${explorerCatalog.prompt({
   ],
 })}`;
 
-export const gateway = createGateway({ apiKey: env.AI_GATEWAY_API_KEY });
-
 export const agent = new ToolLoopAgent({
-  model: gateway(env.AI_GATEWAY_MODEL || DEFAULT_MODEL),
+  model: modelProvider(env.LLM_MODEL || env.AI_GATEWAY_MODEL || DEFAULT_MODEL),
   instructions: AGENT_INSTRUCTIONS,
   tools: {
     getWeather,

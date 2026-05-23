@@ -4,8 +4,7 @@ import { GeistPixelSquare } from "geist/font/pixel";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { DocsChat } from "@/components/docs-chat";
-import { Analytics } from "@vercel/analytics/next";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import { UmamiAnalytics } from "@/components/umami-analytics";
 import { PAGE_TITLES } from "@/lib/page-titles";
 import { cookies } from "next/headers";
 
@@ -99,8 +98,7 @@ export default async function RootLayout({
           {children}
           <DocsChat defaultOpen={chatOpen} defaultWidth={chatWidth} />
         </ThemeProvider>
-        <Analytics />
-        <SpeedInsights />
+        <UmamiAnalytics />
       </body>
     </html>
   );

@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { put } from "@vercel/blob";
+import { uploadAsset } from "@/lib/minio";
 
 export async function POST(request: Request) {
   try {
@@ -14,9 +14,10 @@ export async function POST(request: Request) {
     const filename = filenameFromForm ? String(filenameFromForm) : file.name;
     const cleanFilename = filename.toLowerCase().replace(/[^a-z0-9.]/g, "-");
 
-    const blob = await put(`game-engine/environments/${cleanFilename}`, file, {
-      access: "public",
-    });
+    const blob = await uploadAsset(
+      `game-engine/environments/${cleanFilename}`,
+      file,
+    );
 
     return NextResponse.json({ url: blob.url, name: cleanFilename });
   } catch (error) {

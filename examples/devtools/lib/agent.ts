@@ -1,8 +1,12 @@
 import { ToolLoopAgent, stepCountIs } from "ai";
-import { gateway } from "@ai-sdk/gateway";
+import { createOpenAI } from "@ai-sdk/openai";
 import { catalog } from "./catalog";
 
 const DEFAULT_MODEL = "anthropic/claude-haiku-4.5";
+const modelProvider = createOpenAI({
+  baseURL: process.env.LLM_BASE_URL || "http://127.0.0.1:11434/v1",
+  apiKey: process.env.LLM_API_KEY || "ollama",
+});
 
 /**
  * Build a system prompt for a single assistant turn. Each turn is bound to
@@ -82,7 +86,9 @@ ${catalog.prompt({
  */
 export function createAgent(messageId: string) {
   return new ToolLoopAgent({
-    model: gateway(process.env.AI_GATEWAY_MODEL || DEFAULT_MODEL),
+    model: modelProvider(
+      process.env.LLM_MODEL || process.env.AI_GATEWAY_MODEL || DEFAULT_MODEL,
+    ),
     instructions: systemPrompt(messageId),
     tools: {},
     stopWhen: stepCountIs(1),

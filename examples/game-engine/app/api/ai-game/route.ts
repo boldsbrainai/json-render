@@ -1,8 +1,13 @@
 import { streamText } from "ai";
-import { gateway } from "@ai-sdk/gateway";
+import { createOpenAI } from "@ai-sdk/openai";
 import { headers } from "next/headers";
 import { generateGameAIPrompt } from "@/lib/ai-game-prompt";
 import { minuteRateLimit, dailyRateLimit } from "@/lib/rate-limit";
+
+const modelProvider = createOpenAI({
+  baseURL: process.env.LLM_BASE_URL || "http://127.0.0.1:11434/v1",
+  apiKey: process.env.LLM_API_KEY || "ollama",
+});
 
 export async function POST(req: Request) {
   const headersList = await headers();
@@ -38,8 +43,10 @@ export async function POST(req: Request) {
   const sceneObjects = Array.isArray(objects) ? objects : [];
 
   const result = streamText({
-    model: gateway(
-      process.env.AI_GATEWAY_MODEL || "anthropic/claude-sonnet-4-6",
+    model: modelProvider(
+      process.env.LLM_MODEL ||
+        process.env.AI_GATEWAY_MODEL ||
+        "qwen2.5:7b-instruct",
     ),
     prompt: generateGameAIPrompt(prompt, sceneObjects, previousPrompts || []),
   });

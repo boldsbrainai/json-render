@@ -10,12 +10,12 @@ import { createAgent } from "@/lib/agent";
 export const maxDuration = 60;
 
 export async function POST(req: Request) {
-  if (!process.env.AI_GATEWAY_API_KEY) {
+  if (!process.env.LLM_BASE_URL) {
     return new Response(
       JSON.stringify({
-        error: "Missing AI_GATEWAY_API_KEY",
+        error: "Missing LLM_BASE_URL",
         message:
-          "Set AI_GATEWAY_API_KEY in .env.local to enable AI. See https://vercel.com/ai-gateway.",
+          "Set LLM_BASE_URL and optionally LLM_API_KEY/LLM_MODEL in .env.local to enable a self-hosted provider.",
       }),
       { status: 500, headers: { "Content-Type": "application/json" } },
     );
